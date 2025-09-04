@@ -21,7 +21,7 @@ const movies = [
     genre: 'Possessão',
     description: 'Baseado em fatos, o filme segue os investigadores paranormais Ed e Lorraine Warren enquanto tentam ajudar uma família aterrorizada por uma entidade sombria.',
     rating: '7.5',
-    poster: 'https://image.tmdb.org/t/p/w500/3o80z4fC9jPksV7W85hP30IeXy8.jpg'
+    poster: 'https://th.bing.com/th/id/R.16be21c84fe2552a2f295d357238df5b?rik=07RmMsLq80Snsw&riu=http%3a%2f%2fimages.allocine.fr%2fpictures%2f210%2f156%2f21015611_20130626154441145.jpg&ehk=pb7qoOUfa7G17gm4HfwQshB%2bdYqThzqcKf6FYGUDEsQ%3d&risl=&pid=ImgRaw&r=0'
   },
   {
     title: 'A Bruxa de Blair',
@@ -29,7 +29,7 @@ const movies = [
     genre: 'Fantasma',
     description: 'Três estudantes de cinema desaparecem em uma floresta enquanto gravam um documentário sobre uma lenda local, deixando para trás apenas a sua filmagem.',
     rating: '6.5',
-    poster: 'https://image.tmdb.org/t/p/w500/vGf223Wd4rA3m5nJbJq1uB4o08.jpg'
+    poster: 'https://2.bp.blogspot.com/-zhjn2AQ6EKU/Yhwde9D4npI/AAAAAAABRwM/mO3YTBMM9EEW0ptAVDGuiBkWDCzUL6WngCNcBGAsYHQ/s1600/a-viralizacao-de-bruxa-de-blair.jpg'
   },
   {
     title: 'Psicose',
@@ -37,7 +37,7 @@ const movies = [
     genre: 'Thriller',
     description: 'Uma secretária em fuga se hospeda em um motel isolado, gerenciado por um jovem estranho, e descobre seus segredos sombrios.',
     rating: '8.4',
-    poster: 'https://image.tmdb.org/t/p/w500/mB0pS622qf8D0B3tQJ2R5QyX5GZ.jpg'
+    poster: 'https://th.bing.com/th/id/R.5e2dddcdb52f89de539385695fe9f80a?rik=VifRR48JVzMDmA&pid=ImgRaw&r=0'
   },
   {
     title: 'Corra!',
@@ -45,7 +45,7 @@ const movies = [
     genre: 'Psicológico',
     description: 'Um jovem fotógrafo negro visita a família de sua namorada branca e descobre que a cordialidade inicial esconde uma terrível conspiração.',
     rating: '7.7',
-    poster: 'https://image.tmdb.org/t/p/w500/tI66pL4jN0vWzW4xVq5ZJtHkPzT.jpg'
+    poster: 'https://th.bing.com/th/id/R.cfabc0d25db4849aaae1397cbbd645ce?rik=khEMh7W1G4Jlsw&pid=ImgRaw&r=0'
   },
   {
     title: 'O Exorcista',
