@@ -1,0 +1,18 @@
+{
+    title: 'O Iluminado',
+    year: '1980',
+    genre: 'Psicológico',
+    description: 'Um escritor e sua família se isolam em um hotel sinistro e desolado, onde a sanidade do pai é corroída por forças malignas.',
+    rating: '8.4',
+    poster: 'https://br.web.img2.acsta.net/r_1280_720/pictures/17/09/21/17/20/1333631.jpg'
+  },
+  {
+    title: 'Hereditário',
+    year: '2018',
+    genre: 'Sobrenatural',
+    description: 'Uma família enlutada desvenda segredos aterrorizantes sobre sua ancestralidade, mergulhando em um pesadelo que se desenrola após a morte da matriarca.',
+    rating: '7.3',
+    poster: 'https://junkee.com/wp-content/uploads/2018/06/hereditary-1.jpg'
+  },
+ 
+];

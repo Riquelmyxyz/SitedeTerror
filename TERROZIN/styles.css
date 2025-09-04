@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Chiller&family=Eater&display=swap');
+
+/* Reset e body */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: linear-gradient(135deg, #1a0033, #330066, #000033, #1a001a, #000000);
+  color: #e6ccff;
+  font-family: 'Chiller', cursive;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Background animado */
+.background-effects { position: fixed; inset: 0; pointer-events: none; z-index: -1; }
+.floating-skull { position: absolute; font-size: 2rem; color: rgba(102,0,102,0.3); animation: float 8s infinite ease-in-out; }
+@keyframes float { 0%,100% { transform: translateY(0) rotate(0); opacity: .3; } 50% { transform: translateY(-20px) rotate(180deg); opacity: .6; } }
+.blood-trail { position: absolute; width: 3px; height: 100px; background: linear-gradient(to bottom, transparent, #cc0066, #990033); animation: drip 4s infinite linear; }
+@keyframes drip { 0% { transform: translateY(-100vh); opacity: 0; } 10%,90% { opacity: 1; } 100% { transform: translateY(100vh); opacity: 0; } }
+.particle { position: absolute; width: 4px; height: 4px; background: #ff3399; border-radius: 50%; animation: particle 6s infinite linear; }
+@keyframes particle { 0% { transform: translateY(100vh) translateX(0); opacity: 0; } 10%,90% { opacity: 1; } 100% { transform: translateY(-100vh) translateX(100px); opacity: 0; } }
+
+/* Header */
+.header { text-align: center; padding: 3rem 2rem; background: radial-gradient(ellipse, rgba(102,0,102,.4), rgba(0,0,0,.8)); border-bottom: 5px solid #cc0066; position: relative; }
+.main-title { font-family: 'Eater', cursive; font-size: 5rem; color: #ff0066; text-shadow: 0 0 10px #ff0066, 0 0 20px #cc0066, 0 0 30px #990033; animation: pulse 3s infinite; }
+@keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+.subtitle { font-size: 1.8rem; color: #cc99ff; }
+
+/* Container */
+.container { max-width: 1400px; margin: auto; padding: 3rem 2rem; }
+.section-title { font-family: 'Creepster', cursive; font-size: 2.5rem; color: #ff3399; text-align: center; margin-bottom: 2rem; }
+
+/* Dropdown */
+.genre-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 2rem;
+  z-index: 10; /* Adicionado para sobrepor o botão */
+}
+
+.dropdown-btn { background: linear-gradient(45deg, #990066, #ff0066); color: white; border: 3px solid #ff3399; padding: 1.2rem 3rem; border-radius: 30px; cursor: pointer; font-size: 1.4rem; font-family: 'Chiller', cursive; display: flex; justify-content: space-between; width: 100%; min-width: 300px; }
+.dropdown-menu { position: absolute; top: 100%; left: 0; right: 0; background: rgba(0,0,0,.9); border: 3px solid #663399; border-radius: 20px; margin-top: 10px; opacity: 0; visibility: hidden; transform: translateY(-20px); transition: all .4s; max-height: 400px; overflow-y: auto; }
+.dropdown-menu.show { opacity: 1; visibility: visible; transform: translateY(0); }
+.dropdown-item { padding: 1rem; cursor: pointer; border-bottom: 1px solid rgba(102,51,153,.3); color: #e6ccff; }
+.dropdown-item:hover { background: rgba(255,0,102,.2); color: #ff3399; transform: translateX(10px); }
+.dropdown-item.active { background: rgba(255,0,102,.4); color: #ff3399; font-weight: bold; }
+
+/* Grid de filmes */
+.movies-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px,1fr)); gap: 3rem; }
+.movie-card { background: rgba(51,0,102,.3); border: 3px solid #663399; border-radius: 20px; overflow: hidden; transition: .4s; }
+.movie-card:hover { transform: translateY(-15px) scale(1.02); box-shadow: 0 25px 50px rgba(255,0,102,.4); border-color: #ff0066; }
+.movie-poster { width: 100%; height: 400px; background-size: cover; background-position: center; border-radius: 17px 17px 0 0; position: relative; }
+.movie-rating-overlay { position: absolute; top: 15px; right: 15px; background: rgba(0,0,0,.8); color: #ff3399; padding: .5rem 1rem; border-radius: 20px; border: 2px solid #ff3399; }
+.movie-content { padding: 2rem; }
+.movie-title { font-family: 'Creepster', cursive; font-size: 1.8rem; color: #ff3399; margin-bottom: .5rem; }
+.movie-year-genre { display: flex; justify-content: space-between; color: #cc99ff; margin-bottom: 1rem; }
+.movie-description { color: #e6ccff; line-height: 1.7; margin-bottom: 1.5rem; }
+
+/* Responsivo */
+@media (max-width:768px) {
+  .main-title { font-size: 3rem; }
+  .movies-grid { grid-template-columns: 1fr; }
+  .dropdown-btn { min-width: 250px; font-size: 1.1rem; padding: 1rem 2rem; }
+}
