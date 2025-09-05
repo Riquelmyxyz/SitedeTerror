@@ -29,20 +29,84 @@ body {
 .container { max-width: 1400px; margin: auto; padding: 3rem 2rem; }
 .section-title { font-family: 'Creepster', cursive; font-size: 2.5rem; color: #ff3399; text-align: center; margin-bottom: 2rem; }
 
+/* No seu arquivo styles.css */
+
+/* ... (seu código original até a seção Dropdown) ... */
+
+/* No seu arquivo styles.css */
+
+/* ... (seu código original até a seção Dropdown) ... */
+
 /* Dropdown */
 .genre-dropdown {
-  position: relative;
-  display: inline-block;
-  margin-top: 2rem;
-  z-index: 10; /* Adicionado para sobrepor o botão */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    z-index: 100;
 }
 
-.dropdown-btn { background: linear-gradient(45deg, #990066, #ff0066); color: white; border: 3px solid #ff3399; padding: 1.2rem 3rem; border-radius: 30px; cursor: pointer; font-size: 1.4rem; font-family: 'Chiller', cursive; display: flex; justify-content: space-between; width: 100%; min-width: 300px; }
-.dropdown-menu { position: absolute; top: 100%; left: 0; right: 0; background: rgba(0,0,0,.9); border: 3px solid #663399; border-radius: 20px; margin-top: 10px; opacity: 0; visibility: hidden; transform: translateY(-20px); transition: all .4s; max-height: 400px; overflow-y: auto; }
-.dropdown-menu.show { opacity: 1; visibility: visible; transform: translateY(0); }
-.dropdown-item { padding: 1rem; cursor: pointer; border-bottom: 1px solid rgba(102,51,153,.3); color: #e6ccff; }
-.dropdown-item:hover { background: rgba(255,0,102,.2); color: #ff3399; transform: translateX(10px); }
-.dropdown-item.active { background: rgba(255,0,102,.4); color: #ff3399; font-weight: bold; }
+.dropdown-btn {
+    background: linear-gradient(45deg, #990066, #ff0066);
+    color: white;
+    border: 3px solid #ff3399;
+    padding: 1.2rem 3rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-family: 'Chiller', cursive;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    min-width: 300px;
+    position: relative;
+    z-index: 101;
+}
+
+/* Menu de Gêneros (Ajustado para centralizar) */
+.dropdown-menu {
+    position: absolute;
+    top: 100%; /* Posiciona o menu logo abaixo do botão */
+    left: 50%; /* Move o início do menu para o centro do botão */
+    transform: translateX(-50%); /* Desloca o menu de volta pela metade de sua própria largura, centralizando-o */
+    background: rgba(0,0,0,.9);
+    border: 3px solid #663399;
+    border-radius: 20px;
+    margin-top: 10px; /* Espaço entre o botão e o menu */
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+    max-height: 400px;
+    overflow-y: auto;
+    width: auto; /* Ajusta a largura ao conteúdo do menu */
+    min-width: 300px; /* Define uma largura mínima para consistência */
+    box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura total */
+}
+.dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%); /* Mantém a centralização quando o menu aparece */
+}
+/* ... (restante do seu CSS original, incluindo dropdown-item, movies-grid, etc.) ... */
+
+.dropdown-item {
+    padding: 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(102,51,153,.3);
+    color: #e6ccff;
+}
+.dropdown-item:hover {
+    background: rgba(255,0,102,.2);
+    color: #ff3399;
+    transform: translateX(10px);
+}
+.dropdown-item.active {
+    background: rgba(255,0,102,.4);
+    color: #ff3399;
+    font-weight: bold;
+}
 
 /* Grid de filmes */
 .movies-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px,1fr)); gap: 3rem; }
@@ -57,7 +121,7 @@ body {
 
 /* Responsivo */
 @media (max-width:768px) {
-  .main-title { font-size: 3rem; }
-  .movies-grid { grid-template-columns: 1fr; }
-  .dropdown-btn { min-width: 250px; font-size: 1.1rem; padding: 1rem 2rem; }
+  .main-title { font-size: 3rem; }
+  .movies-grid { grid-template-columns: 1fr; }
+  .dropdown-btn { min-width: 250px; font-size: 1.1rem; padding: 1rem 2rem; }
 }
