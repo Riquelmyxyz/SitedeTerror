@@ -1,5 +1,5 @@
 const movies = [
-  {
+{
     title: 'O Iluminado',
     year: '1980',
     genre: 'Psicológico',
@@ -13,7 +13,7 @@ const movies = [
     genre: 'Sobrenatural',
     description: 'Uma família enlutada desvenda segredos aterrorizantes sobre sua ancestralidade, mergulhando em um pesadelo que se desenrola após a morte da matriarca.',
     rating: '7.3',
-   poster: 'https://junkee.com/wp-content/uploads/2018/06/hereditary-1.jpg'
+    poster: 'https://junkee.com/wp-content/uploads/2018/06/hereditary-1.jpg'
   },
   {
     title: 'Invocação do Mal',
@@ -101,7 +101,7 @@ const movies = [
     genre: 'Slasher',
     description: 'Um grupo de amigos é atacado por uma família de canibais enquanto viaja pelo Texas.',
     rating: '7.5',
-     poster: 'https://image.tmdb.org/t/p/w500/aMv2W5Wq1uB8c516J3n51xS995X.jpg'
+    poster: 'https://image.tmdb.org/t/p/w500/aMv2W5Wq1uB8c516J3n51xS995X.jpg'
   },
   {
     title: 'Pânico',
@@ -138,7 +138,7 @@ const movies = [
   {
     title: 'Suspiria',
     year: '1977',
-    genre: 'Cult',
+    genre: 'Culto',
     description: 'Uma estudante americana de dança viaja para uma prestigiada academia de balé em Berlim, apenas para descobrir que o lugar esconde segredos sombrios de bruxaria.',
     rating: '7.4',
     poster: 'https://image.tmdb.org/t/p/w500/pT85aT5j55K4jP0930n4n5w6g6c.jpg'
@@ -238,6 +238,376 @@ const movies = [
     description: 'Seis amigas exploram um sistema de cavernas inexplorado, mas ficam presas e descobrem que não estão sozinhas lá embaixo.',
     rating: '7.2',
     poster: 'https://image.tmdb.org/t/p/w500/d59yS7jL738zP5p75bK72yY7L1p.jpg'
+  },
+ 
+  {
+    title: 'Nosferatu',
+    year: '2025',
+    genre: 'Vampiro',
+    description: 'Uma nova adaptação do clássico conto de vampiro, com uma abordagem sombria e gótica.',
+    rating: null, // Rating a ser definido após o lançamento
+    poster: 'URL_DO_POSTER_NOSFERATU_2024' // Substitua pela URL real do pôster
+  },
+  {
+    title: 'Lobisomem',
+    year: '2025',
+    genre: 'Sobrenatural',
+    description: 'Um conto moderno sobre a maldição do lobisomem, explorando os conflitos internos e externos do protagonista.',
+    rating: null,
+    poster: 'URL_DO_POSTER_LOBISOMEM_2024'
+  },
+  {
+    title: 'O Macaco',
+    year: '2025',
+    genre: 'Sobrenatural',
+    description: 'Baseado no conto de Stephen King, o filme explora os horrores que uma antiga entidade pode trazer para uma família.',
+    rating: null,
+    poster: 'URL_DO_POSTER_O_MACACO_2024'
+  },
+  {
+    title: 'Presença',
+    year: '2025',
+    genre: 'Sobrenatural',
+    description: 'Uma família se muda para uma casa onde uma presença sinistra começa a se manifestar de formas aterrorizantes.',
+    rating: null,
+    poster: 'URL_DO_POSTER_PRESENCA_2024'
+  },
+  {
+    title: 'Pecadores',
+    year: '2025',
+    genre: 'Culto',
+    description: 'Um grupo de indivíduos é atraído para um culto misterioso com promessas de salvação, mas encontra um destino sombrio.',
+    rating: null,
+    poster: 'URL_DO_POSTER_PECADORES_2024'
+  },
+  {
+    title: 'Until Dawn: Noite de Terror',
+    year: '2025',
+    genre: 'Slasher',
+    description: 'Um grupo de amigos se vê preso em uma cabana isolada, sendo caçados por um assassino implacável.',
+    rating: null,
+    poster: 'URL_DO_POSTER_UNTIL_DAWN_2024'
+  },
+  {
+    title: 'A Mulher no Jardim',
+    year: '2025',
+    genre: 'Sobrenatural',
+    description: 'Uma mulher descobre segredos obscuros e sobrenaturais escondidos em um jardim antigo e misterioso.',
+    rating: null,
+    poster: 'URL_DO_POSTER_A_MULHER_NO_JARDIM_2024'
+  },
+  {
+    title: 'Premonição 6: Laços de Sangue',
+    year: '2025',
+    genre: 'Thriller',
+    description: 'A mais nova instalação da franquia Premonição, onde um grupo de pessoas escapa da morte, mas a Morte vem atrás deles.',
+    rating: null,
+    poster: 'URL_DO_POSTER_PREMONICAO_6_2024'
+  },
+  {
+    title: 'Extermínio: A Evolução',
+    year: '2025',
+    genre: 'Apocalíptico',
+    description: 'A saga de sobrevivência em um mundo devastado por um vírus mortal continua, com novos desafios e ameaças.',
+    rating: null,
+    poster: 'URL_DO_POSTER_EXTERMINIO_EVOLUCAO_2024'
+  },
+  {
+    title: 'M3GAN 2.0',
+    year: '2025',
+    genre: 'Alien', // Embora M3GAN seja uma IA, a natureza de "outra vida" se encaixa aqui para fins de gênero amplo
+    description: 'A boneca assassina M3GAN retorna em uma nova aventura cheia de tecnologia e terror.',
+    rating: null,
+    poster: 'URL_DO_POSTER_M3GAN_2_0_2024'
+  },
+  {
+    title: 'Eu Sei o Que Vocês Fizeram no Verão Passado',
+    year: '2025',
+    genre: 'Slasher',
+    description: 'Um remake ou continuação da clássica franquia de terror adolescente, com um novo assassino aterrorizando um grupo de jovens.',
+    rating: null,
+    poster: 'URL_DO_POSTER_EU_SEI_O_QUE_VOCES_FIZERAM_2024'
+  },
+  {
+    title: 'O Ritual',
+    year: '2025',
+    genre: 'Culto',
+    description: 'Um grupo participa de um ritual misterioso que desencadeia forças sombrias e perigosas.',
+    rating: null,
+    poster: 'URL_DO_POSTER_O_RITUAL_2024'
+  },
+  {
+    title: 'A Hora do Mal',
+    year: '2025',
+    genre: 'Sobrenatural',
+    description: 'Uma história de possessão e entidades demoníacas que se intensifica durante um período específico.',
+    rating: null,
+    poster: 'URL_DO_POSTER_A_HORA_DO_MAL_2024'
+  },
+  {
+    title: 'Os Enforcados',
+    year: '202f',
+    genre: 'Slasher',
+    description: 'Um grupo de amigos é aterrorizado por um assassino que usa métodos cruéis e ligados a um antigo conto folclórico.',
+    rating: null,
+    poster: 'URL_DO_POSTER_OS_ENFORCADOS_2024'
+  },
+  {
+    title: 'Juntos',
+    year: '2025',
+    genre: 'Psicológico',
+    description: 'O isolamento e a paranoia levam um grupo de pessoas a confrontar seus medos mais profundos.',
+    rating: null,
+    poster: 'URL_DO_POSTER_JUNTOS_2024'
+  },
+  {
+    title: 'Faça Ela Voltar',
+    year: '2025',
+    genre: 'Sobrenatural',
+    description: 'Uma tentativa desesperada de trazer alguém de volta do além desencadeia consequências aterrorizantes.',
+    rating: null,
+    poster: 'URL_DO_POSTER_FACAE LAVOLTAR_2024'
+  },
+  {
+    title: 'Invocação do Mal 4: O Último Ritual',
+    year: '2025',
+    genre: 'Possessão',
+    description: 'Ed e Lorraine Warren retornam para enfrentar sua mais desafiadora e talvez última investigação paranormal.',
+    rating: null,
+    poster: 'URL_DO_POSTER_INVOCACAO_DO_MAL_4_2024'
+  },
+
+  {
+    title: 'O Chamado',
+    year: '2002',
+    genre: 'Sobrenatural',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Sobrenatural',
+    year: '2010',
+    genre: 'Sobrenatural',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'A Entidade',
+    year: '2012',
+    genre: 'Sobrenatural',
+    description: null,
+    rating: null,
+    poster: null
+  },
+ 
+
+  {
+    title: 'Cisne Negro',
+    year: '2010',
+    genre: 'Psicológico',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  
+ 
+  {
+    title: 'O Homem Invisível',
+    year: '2020',
+    genre: 'Thriller',
+    description: null,
+    rating: null,
+    poster: null
+  },
+ 
+ 
+  {
+    title: 'REC',
+    year: '2007',
+    genre: 'Zumbi',
+    description: null,
+    rating: null,
+    poster: null
+  },
+ 
+  {
+    title: 'A Morte do Demônio',
+    year: '2013',
+    genre: 'Demônio',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Arraste-me para o Inferno',
+    year: '2009',
+    genre: 'Demônio',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Drácula de Bram Stoker',
+    year: '1992',
+    genre: 'Vampiro',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Deixe Ela Entrar',
+    year: '2008',
+    genre: 'Vampiro',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Entrevista com o Vampiro',
+    year: '1994',
+    genre: 'Vampiro',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Os Outros',
+    year: '2001',
+    genre: 'Fantasma',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'A Maldição da Residência Hill',
+    year: '2018',
+    genre: 'Fantasma',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'O Orfanato',
+    year: '2007',
+    genre: 'Fantasma',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Possessão',
+    year: '2012',
+    genre: 'Possessão',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'O Ritual',
+    year: '2011',
+    genre: 'Possessão',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Verónica',
+    year: '2017',
+    genre: 'Possessão',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'O Homem de Palha',
+    year: '1973',
+    genre: 'Culto',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Midsommar',
+    year: '2019',
+    genre: 'Culto',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'O Sacrifício do Cervo Sagrado',
+    year: '2017',
+    genre: 'Culto',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  
+  {
+    title: 'Creepshow',
+    year: '1982',
+    genre: 'Body Horror',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Raw',
+    year: '2016',
+    genre: 'Body Horror',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'A Estrada',
+    year: '2009',
+    genre: 'Apocalíptico',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Filhos da Esperança',
+    year: '2006',
+    genre: 'Apocalíptico',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Bird Box',
+    year: '2018',
+    genre: 'Apocalíptico',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Alien: O Oitavo Passageiro',
+    year: '1979',
+    genre: 'Alien',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'A Coisa',
+    year: '1982',
+    genre: 'Alien',
+    description: null,
+    rating: null,
+    poster: null
+  },
+  {
+    title: 'Sinais',
+    year: '2002',
+    genre: 'Alien',
+    description: null,
+    rating: null,
+    poster: null
   }
 ];
 
