@@ -1,41 +1,149 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Chiller&family=Eater&display=swap');
 
 /* Reset e body */
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  background: linear-gradient(135deg, #1a0033, #330066, #000033, #1a001a, #000000);
-  color: #e6ccff;
-  font-family: 'Chiller', cursive;
-  min-height: 100vh;
-  overflow-x: hidden;
+    background: linear-gradient(135deg, #1a0033, #330066, #000033, #1a001a, #000000);
+    color: #e6ccff;
+    font-family: 'Chiller', cursive;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
 /* Background animado */
-.background-effects { position: fixed; inset: 0; pointer-events: none; z-index: -1; }
-.floating-skull { position: absolute; font-size: 2rem; color: rgba(102,0,102,0.3); animation: float 8s infinite ease-in-out; }
-@keyframes float { 0%,100% { transform: translateY(0) rotate(0); opacity: .3; } 50% { transform: translateY(-20px) rotate(180deg); opacity: .6; } }
-.blood-trail { position: absolute; width: 3px; height: 100px; background: linear-gradient(to bottom, transparent, #cc0066, #990033); animation: drip 4s infinite linear; }
-@keyframes drip { 0% { transform: translateY(-100vh); opacity: 0; } 10%,90% { opacity: 1; } 100% { transform: translateY(100vh); opacity: 0; } }
-.particle { position: absolute; width: 4px; height: 4px; background: #ff3399; border-radius: 50%; animation: particle 6s infinite linear; }
-@keyframes particle { 0% { transform: translateY(100vh) translateX(0); opacity: 0; } 10%,90% { opacity: 1; } 100% { transform: translateY(-100vh) translateX(100px); opacity: 0; } }
+.background-effects {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+}
 
-/* Header */
+.floating-skull {
+    position: absolute;
+    font-size: 2rem;
+    color: rgba(102, 0, 102, 0.3);
+    animation: float 8s infinite ease-in-out;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0) rotate(0);
+        opacity: .3;
+    }
+    50% {
+        transform: translateY(-20px) rotate(180deg);
+        opacity: .6;
+    }
+}
+
+.blood-trail {
+    position: absolute;
+    width: 3px;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, #cc0066, #990033);
+    animation: drip 4s infinite linear;
+}
+
+@keyframes drip {
+    0% {
+        height: 0;
+        opacity: 0;
+    }
+    10% {
+        height: 100px;
+        opacity: 1;
+    }
+    90% {
+        height: 100px;
+        opacity: 1;
+    }
+    100% {
+        height: 200px;
+        opacity: 0;
+    }
+}
+
+.particle {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #ff3399;
+    border-radius: 50%;
+    animation: sparkle 5s infinite ease-in-out;
+}
+
+@keyframes sparkle {
+    0%,
+    100% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Container principal */
+.container { max-width: 1400px; margin: auto; padding: 3rem 2rem; }
+.section-title { font-family: 'Creepster', cursive; font-size: 2.5rem; color: #ff3399; text-align: center; margin-bottom: 2rem; }
+
+
+/* Cabeçalho */
 .header { text-align: center; padding: 3rem 2rem; background: radial-gradient(ellipse, rgba(102,0,102,.4), rgba(0,0,0,.8)); border-bottom: 5px solid #cc0066; position: relative; }
 .main-title { font-family: 'Eater', cursive; font-size: 5rem; color: #ff0066; text-shadow: 0 0 10px #ff0066, 0 0 20px #cc0066, 0 0 30px #990033; animation: pulse 3s infinite; }
 @keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
 .subtitle { font-size: 1.8rem; color: #cc99ff; }
 
-/* Container */
-.container { max-width: 1400px; margin: auto; padding: 3rem 2rem; }
-.section-title { font-family: 'Creepster', cursive; font-size: 2.5rem; color: #ff3399; text-align: center; margin-bottom: 2rem; }
+.main-title {
+    font-family: 'Creepster', cursive;
+    font-size: 4rem;
+    color: #ff3399;
+    text-shadow: 0 0 10px #ff3399, 0 0 20px #ff3399, 0 0 40px #ff3399, 0 0 80px #ff3399;
+    letter-spacing: 5px;
+    margin-bottom: 1rem;
+    animation: pulse 4s infinite ease-in-out;
+}
 
-/* No seu arquivo styles.css */
+@keyframes pulse {
+    0%,
+    100% {
+        text-shadow: 0 0 10px #ff3399, 0 0 20px #ff3399;
+    }
+    50% {
+        text-shadow: 0 0 20px #ff3399, 0 0 40px #ff3399, 0 0 60px #ff3399;
+    }
+}
 
-/* ... (seu código original até a seção Dropdown) ... */
+.slogan {
+    font-size: 1.2rem;
+    color: #e6ccff;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #000;
+}
 
-/* No seu arquivo styles.css */
+/* Seções */
+.section-title {
+    font-family: 'Creepster', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 5px #ff3399, 0 0 10px #ff3399;
+}
 
-/* ... (seu código original até a seção Dropdown) ... */
+/* Filtro de gênero */
+.genre-filter {
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+}
 
 /* Dropdown */
 .genre-dropdown {
@@ -108,20 +216,221 @@ body {
     font-weight: bold;
 }
 
+
 /* Grid de filmes */
-.movies-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px,1fr)); gap: 3rem; }
-.movie-card { background: rgba(51,0,102,.3); border: 3px solid #663399; border-radius: 20px; overflow: hidden; transition: .4s; }
-.movie-card:hover { transform: translateY(-15px) scale(1.02); box-shadow: 0 25px 50px rgba(255,0,102,.4); border-color: #ff0066; }
-.movie-poster { width: 100%; height: 400px; background-size: cover; background-position: center; border-radius: 17px 17px 0 0; position: relative; }
-.movie-rating-overlay { position: absolute; top: 15px; right: 15px; background: rgba(0,0,0,.8); color: #ff3399; padding: .5rem 1rem; border-radius: 20px; border: 2px solid #ff3399; }
-.movie-content { padding: 2rem; }
-.movie-title { font-family: 'Creepster', cursive; font-size: 1.8rem; color: #ff3399; margin-bottom: .5rem; }
-.movie-year-genre { display: flex; justify-content: space-between; color: #cc99ff; margin-bottom: 1rem; }
-.movie-description { color: #e6ccff; line-height: 1.7; margin-bottom: 1.5rem; }
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    gap: 3rem;
+    justify-content: center; /* Adicione esta linha */
+}
+
+
+.no-movies-message {
+    font-family: 'Creepster', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #ff3399;
+    grid-column: 1 / -1;
+    margin-top: 5rem;
+    text-shadow: 0 0 5px #ff3399;
+}
+
+.movie-card {
+    background: rgba(51, 0, 102, .3);
+    border: 3px solid #663399;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .4s;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-card:hover {
+    transform: translateY(-15px) scale(1.02);
+    box-shadow: 0 25px 50px rgba(255, 0, 102, .4);
+    border-color: #ff0066;
+}
+
+.movie-poster {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 17px 17px 0 0;
+    position: relative;
+}
+
+.movie-rating-overlay {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(0, 0, 0, .8);
+    color: #ff3399;
+    padding: 8px 12px;
+    border-radius: 50px;
+    font-family: 'Creepster', cursive;
+    font-size: 1.2rem;
+    border: 2px solid #ff3399;
+    box-shadow: 0 0 10px #ff3399;
+}
+
+.movie-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.movie-title {
+    font-family: 'Creepster', cursive;
+    font-size: 2.2rem;
+    color: #ff3399;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.movie-year-genre {
+    display: flex;
+    gap: 15px;
+    font-size: 1rem;
+    color: #a366ff;
+    margin-bottom: 1rem;
+    font-family: 'Chiller', cursive;
+}
+
+.movie-description {
+    font-size: 1.1rem;
+    color: #d9d9d9;
+    font-family: 'Chiller', cursive;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+
+/* --- Estilos para o novo menu "Onde Assistir" --- */
+
+.movie-buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.platforms-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.watch-on-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(255, 51, 153, 0.2);
+    border: 2px solid #ff3399;
+    color: #fff;
+    font-family: 'Creepster', cursive;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 5px #ff3399;
+}
+
+.watch-on-btn:hover {
+    background: rgba(255, 51, 153, 0.4);
+    box-shadow: 0 0 10px #ff3399;
+}
+
+.watch-on-btn.active .arrow-icon {
+    transform: rotate(180deg);
+}
+
+.arrow-icon {
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.platforms-dropdown {
+    display: none;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 51, 153, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0 0 10px rgba(255, 51, 153, 0.3);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+}
+
+.platforms-dropdown.show {
+    display: block;
+    max-height: 200px;
+    /* Valor alto o suficiente para caber o conteúdo */
+    padding: 10px;
+}
+
+.platform-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.platform-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 5px rgba(255, 51, 153, 0.7));
+    transition: transform 0.3s ease;
+}
+
+.platform-logo:hover {
+    transform: scale(1.1);
+}
+
+.trailer-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: rgba(204, 0, 102, 0.5);
+    border: 2px solid #cc0066;
+    color: #fff;
+    font-family: 'Creepster', cursive;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 5px #cc0066;
+}
+
+.trailer-btn:hover {
+    background: rgba(204, 0, 102, 0.7);
+    box-shadow: 0 0 15px rgba(204, 0, 102, 0.6);
+    border-color: #ff0066;
+    transform: scale(1.02);
+}
 
 /* Responsivo */
-@media (max-width:768px) {
-  .main-title { font-size: 3rem; }
-  .movies-grid { grid-template-columns: 1fr; }
-  .dropdown-btn { min-width: 250px; font-size: 1.1rem; padding: 1rem 2rem; }
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2.5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .movies-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .movie-card {
+        max-width: 400px;
+        margin: 0 auto;
+    }
 }
