@@ -10,7 +10,7 @@ const movies = [
       { name: 'HBO Max', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg' },
       { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=3g6P0-n_7_o'
+    trailer: 'https://www.youtube.com/watch?v=dSQ3yN5yJ0g'
   },
   {
     title: 'Hereditário',
@@ -577,35 +577,59 @@ const movies = [
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
+  
+  {
+    title: 'Sobrenatural',
+    year: '2010',
+    genre: 'Sobrenatural',
+    description: 'A história acompanha a família Lambert, que se muda para uma nova casa em busca de recomeço. Tudo parece normal até que o filho Dalton entra em coma inexplicavelmente. A princípio, os pais acreditam que a casa está mal-assombrada, mas logo descobrem que o problema está ligado ao próprio Dalton, que se tornou um canal para entidades sobrenaturais. A trama mergulha em dimensões espirituais e forças ocultas, com muitos sustos e tensão',
+    rating: '8,0',
+    poster: 'https://tse1.explicit.bing.net/th/id/OIP.AlveF5zfaVT9SeFLhEbroQHaLH?r=0&cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3',
+    platforms: [
+      { name: 'HBO Max', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg' },
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' },
+      { name: 'Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+    ],
+    trailer: 'https://www.youtube.com/watch?v=yHfaQy2vAG0'
+  },
   {
     title: 'A Entidade',
     year: '2012',
     genre: 'Sobrenatural',
-    description: null,
-    rating: null,
-    poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    description: 'Ellison Oswalt, um escritor de romances policiais, muda-se com a família para uma casa onde ocorreu um assassinato brutal. No sótão, ele encontra rolos de filmes caseiros que mostram assassinatos de diferentes famílias ao longo das décadas. Conforme investiga, descobre a presença de uma entidade maligna chamada Bughuul, que se alimenta de almas humanas — especialmente de crianças. A tensão cresce à medida que eventos sobrenaturais se intensificam.',
+    rating: '7,4',
+    poster: 'https://th.bing.com/th/id/R.2725d966ce0433bf49d7e5965ce58003?rik=n6750Jseji9Omg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-HOX3efsz71U%2fUeI26UH2k3I%2fAAAAAAAAA7g%2fu1yJnZnu0Og%2fs1600%2f3%2b-%2bA%2bENTIDADE.jpg&ehk=hyfQr3B8QSymUovsUXzPM60Dx0tQruTxAili%2b%2fsVzmI%3d&risl=&pid=ImgRaw&r=0',
+    platforms: [
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' },
+      { name: 'Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+    ],
+    trailer: 'https://www.youtube.com/watch?v=yv9oGgGDBQE'
   },
   {
     title: 'Cisne Negro',
     year: '2010',
     genre: 'Psicológico',
-    description: null,
-    rating: null,
-    poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    description: 'Nina (Natalie Portman) é uma bailarina dedicada que vive sob intensa pressão para alcançar a perfeição. Quando consegue o papel principal na montagem de O Lago dos Cisnes, ela precisa incorporar tanto o Cisne Branco — gracioso e inocente — quanto o Cisne Negro — sedutor e sombrio. À medida que mergulha no papel, Nina começa a perder o controle da realidade, enfrentando delírios, rivalidades e conflitos internos que a levam a uma espiral psicológica perturbadora.',
+    rating: '8,0',
+    poster: 'https://i.pinimg.com/originals/cb/3d/8d/cb3d8d46085e43599ed973e1aa9c1b58.jpg',
+    platforms: [
+      { name: 'Disney+', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg' },
+      { name: 'Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+    ],
+    trailer: 'https://www.youtube.com/watch?v=5jaI1XOB-bs'
   },
   {
     title: 'O Homem Invisível',
     year: '2020',
     genre: 'Thriller',
-    description: null,
-    rating: null,
-    poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    description: 'Cecilia Kass (Elisabeth Moss) foge de um relacionamento abusivo com Adrian Griffin, um cientista brilhante especializado em óptica. Após sua suposta morte, Cecilia começa a ser atormentada por eventos inexplicáveis e acredita que Adrian encontrou uma forma de se tornar invisível. O filme mistura terror psicológico com ficção científica, explorando temas como abuso, manipulação e descrença social',
+    rating: '7,1',
+    poster: 'https://tse1.explicit.bing.net/th/id/OIP.MPTyzuVLcmE_xnmZcoft8gHaFS?r=0&cb=thfc1&w=700&h=500&rs=1&pid=ImgDetMain&o=7&rm=3',
+    platforms: [
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' },
+      { name: 'Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+    ],
+    trailer: 'https://www.youtube.com/watch?v=L91CO7wOqVw'
   },
   {
     title: 'REC',
@@ -614,8 +638,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'A Morte do Demônio',
@@ -624,8 +651,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Arraste-me para o Inferno',
@@ -634,8 +664,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Drácula de Bram Stoker',
@@ -644,8 +677,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Deixe Ela Entrar',
@@ -654,8 +690,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Entrevista com o Vampiro',
@@ -664,8 +703,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Os Outros',
@@ -674,8 +716,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'A Maldição da Residência Hill',
@@ -684,8 +729,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'O Orfanato',
@@ -694,8 +742,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Possessão',
@@ -704,8 +755,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'O Ritual',
@@ -714,8 +768,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Verónica',
@@ -724,8 +781,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'O Homem de Palha',
@@ -734,8 +794,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Midsommar',
@@ -744,8 +807,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'O Sacrifício do Cervo Sagrado',
@@ -754,8 +820,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Creepshow',
@@ -764,8 +833,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Raw',
@@ -774,8 +846,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'A Estrada',
@@ -784,8 +859,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Filhos da Esperança',
@@ -794,8 +872,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Bird Box',
@@ -804,8 +885,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Alien: O Oitavo Passageiro',
@@ -814,8 +898,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'A Coisa',
@@ -824,8 +911,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   },
   {
     title: 'Sinais',
@@ -834,8 +924,11 @@ const movies = [
     description: null,
     rating: null,
     poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'HBO Max', logo: '' },
+      { name: 'Apple TV', logo: '' }
+    ],
+    trailer: ''
   }
 ];
 
@@ -930,3 +1023,4 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
