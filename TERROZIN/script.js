@@ -69,7 +69,7 @@ const movies = [
   {
     title: 'O Chamado',
     year: '2002',
-    genre: 'Sobrenatural',
+    genre: 'Fantasma',
     description: 'Uma jornalista investiga uma misteriosa fita de vídeo que mata quem a assiste em sete dias.',
     rating: '7.1',
     poster: 'https://th.bing.com/th/id/R.52427a1c3e34b159f8c1482f349c8949?rik=E3q%2bB1f3v9gWUg&riu=http%3a%2f%2fbr.web.img3.acsta.net%2fr_1280_720%2fpictures%2f14%2f03%2f20%2f19%2f59%2f418516.jpg&ehk=Q532V5E6B7W23x4M9w2hE8qg4D1eA5gK1pL6E7mF5G4%3d&risl=&pid=ImgRaw&r=0',
@@ -297,8 +297,8 @@ const movies = [
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
   {
-    title: 'O Chamado',
-    year: '2002',
+    title: 'O Chamado 2',
+    year: '2005',
     genre: 'Fantasma',
     description: 'Uma jornalista investiga uma fita de vídeo amaldiçoada que causa a morte de quem a assiste em sete dias.',
     rating: '7.1',
@@ -567,16 +567,7 @@ const movies = [
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
-  {
-    title: 'O Chamado',
-    year: '2002',
-    genre: 'Sobrenatural',
-    description: null,
-    rating: null,
-    poster: null,
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
-  },
+
   {
     title: 'Sobrenatural',
     year: '2010',
