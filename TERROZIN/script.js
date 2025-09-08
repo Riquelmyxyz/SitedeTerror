@@ -58,77 +58,76 @@ const movies = [
     title: 'A Bruxa de Blair',
     year: '1999',
     genre: 'Sobrenatural',
-    description: 'Três estudantes de cinema desaparecem enquanto filmam um documentário sobre uma lenda local, deixando para trás apenas sua câmera.',
+    description: 'O filme segue três estudantes de cinema — Heather Donahue, Michael C. Williams e Joshua Leonard — que desaparecem enquanto gravavam um documentário sobre a lenda da Bruxa de Blair em Burkittsville, Maryland. O filme é apresentado como a gravação que foi encontrada um ano depois do desaparecimento. O trio se perde na floresta, e eventos bizarros e assustadores começam a acontecer, levando-os a um estado de terror crescente.',
     rating: '6.5',
-    poster: 'https://th.bing.com/th/id/R.e48ff98006e88d8b8941f17387dd5e4f?rik=v9tB0W50D02lFA&riu=http%3a%2f%2fbr.web.img3.acsta.net%2fr_1280_720%2fpictures%2f18%2f03%2f13%2f20%2f08%2f3033501.jpg&ehk=pYcE5M7K8iQz1fD0T%2b%2fw7%2fU6f8%2f3y00r8JmPqFj5sKk%3d&risl=&pid=ImgRaw&r=0',
+    poster: 'https://m.media-amazon.com/images/S/pv-target-images/55c94bd94a5a91e7cac3d69b704c2d538d5913c00f99f1954ec8673be8f251d1.jpg',
     platforms: [
-      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=e6VvEaI29vI'
+    trailer: 'https://www.youtube.com/watch?v=VRL1-TxOqKk'
   },
   {
     title: 'O Chamado',
     year: '2002',
     genre: 'Fantasma',
-    description: 'Uma jornalista investiga uma misteriosa fita de vídeo que mata quem a assiste em sete dias.',
-    rating: '7.1',
-    poster: 'https://th.bing.com/th/id/R.52427a1c3e34b159f8c1482f349c8949?rik=E3q%2bB1f3v9gWUg&riu=http%3a%2f%2fbr.web.img3.acsta.net%2fr_1280_720%2fpictures%2f14%2f03%2f20%2f19%2f59%2f418516.jpg&ehk=Q532V5E6B7W23x4M9w2hE8qg4D1eA5gK1pL6E7mF5G4%3d&risl=&pid=ImgRaw&r=0',
+    description: 'Rachel Keller (interpretada por Naomi Watts) é uma jornalista que investiga a misteriosa morte de sua sobrinha. Ela descobre que a tragédia está ligada a um vídeo amaldiçoado: quem o assiste morre exatamente sete dias depois. Quando Rachel e seu filho assistem ao vídeo, ela precisa correr contra o tempo para desvendar o mistério e impedir que a profecia se cumpra.',
+    rating: '7.0',
+    poster: 'https://tse3.mm.bing.net/th/id/OIP.4lh78bOZQc_2RKcstEln-AHaLH?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3',
     platforms: [
-      { name: 'Netflix', logo: 'https://i.pinimg.com/1200x/b6/3c/86/b63c861466a49f4a296806069be7f097.jpghttps://i.pinimg.com/1200x/b6/3c/86/b63c861466a49f4a296806069be7f097.j' },
-      { name: 'Google Play', logo: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/Google_Play_logo.svg' }
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=Qh_t1uR4T6Y'
+    trailer: 'https://www.youtube.com/watch?v=sVjDYHcmRqQ'
   },
   {
     title: 'Um Lugar Silencioso',
     year: '2018',
     genre: 'Alien',
-    description: 'Uma família tenta sobreviver em um mundo pós-apocalíptico habitado por criaturas que caçam pelo som.',
+    description: 'Em um mundo pós-apocalíptico, criaturas alienígenas com audição extremamente sensível dizimaram grande parte da humanidade. Elas atacam ao menor sinal de som. A história acompanha a família Abbott, que vive em silêncio absoluto para sobreviver. Eles se comunicam por linguagem de sinais, caminham descalços e tomam medidas rigorosas para evitar qualquer ruído. Mas quando Evelyn (Emily Blunt) está prestes a dar à luz, manter o silêncio se torna quase impossível.',
     rating: '7.5',
-    poster: 'https://th.bing.com/th/id/R.73775f0f353a39e7019124446b77e8a3?rik=sI%2bM3P92f9t78g&riu=http%3a%2f%2fbr.web.img1.acsta.net%2fr_1280_720%2fpictures%2f18%2f01%2f25%2f16%2f05%2f5043868.jpg&ehk=Xp0t9vO6f5l8qgYh0mS0M1b5G4p0E8gR6e6w7a5sYqU%3d&risl=&pid=ImgRaw&r=0',
+    poster: 'https://dicasdecinema.net/wp-content/uploads/2019/01/um-lugar-silencioso.jpg',
     platforms: [
-      { name: 'Star+', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/Star%2B_logo.svg' }, // Link corrigido
-      { name: 'Apple TV', logo: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_gray_logo.svg' }
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }, 
+      { name: 'Netflix', logo: 'https://i.pinimg.com/1200x/b6/3c/86/b63c861466a49f4a296806069be7f097.jpg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=F1Ebp4w-1Sg'
+    trailer: 'https://www.youtube.com/watch?v=8W6iMmhVDgE'
   },
   {
     title: 'Corra!',
     year: '2017',
     genre: 'Psicológico',
-    description: 'Um jovem negro visita a família da sua namorada branca e descobre um segredo perturbador que ameaça sua vida.',
+    description: 'Chris (Daniel Kaluuya), um jovem negro, está prestes a conhecer a família de sua namorada branca, Rose (Allison Williams). A princípio, o comportamento excessivamente cordial da família parece apenas desconfortável. Mas à medida que o fim de semana avança, Chris percebe que há algo muito mais sinistro por trás da fachada amigável — e precisa encontrar uma forma de escapar.',
     rating: '7.7',
-    poster: 'https://th.bing.com/th/id/R.8a0651666874457ac06f470559648943?rik=G1eK477R946n4g&riu=http%3a%2f%2fbr.web.img1.acsta.net%2fr_1280_720%2fpictures%2f17%2f04%2f06%2f23%2f11%2f411853.jpg&ehk=L%2fe1WbFqT8D7n7B2t8Q6yP8Y6K3rM5i3e7a6Q2y1v5o%3d&risl=&pid=ImgRaw&r=0',
+    poster: 'https://tse2.mm.bing.net/th/id/OIP.30Vg7xhjM1RUE8k7L64FhwHaLH?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3',
     platforms: [
-      { name: 'Netflix', logo: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Netflix_logo.svg' },
-      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=D6s2p4Xz7-o'
+    trailer: 'https://www.youtube.com/watch?v=mDGV5UucTu8'
   },
   {
     title: 'O Babadook',
     year: '2014',
     genre: 'Psicológico',
-    description: 'Uma mãe viúva, atormentada pela morte do marido, encontra um livro infantil assustador que faz com que uma criatura se manifeste em sua casa.',
+    description: 'Amelia (Essie Davis) é uma mãe viúva que luta para lidar com a perda do marido e os comportamentos inquietantes de seu filho, Samuel. A tensão aumenta quando um misterioso livro infantil chamado "O Senhor Babadook" aparece em casa. A história do livro fala sobre uma criatura sombria que se infiltra na vida de quem o conhece. À medida que eventos estranhos começam a acontecer, Amelia precisa enfrentar seus próprios traumas — e o monstro que pode ser mais real do que ela imagina. ',
     rating: '6.8',
-    poster: 'https://th.bing.com/th/id/R.6a19f6a73844f80cf75a109a25b3408a?rik=4G64fW31e8V2Wg&riu=http%3a%2f%2fbr.web.img3.acsta.net%2fr_1280_720%2fpictures%2f14%2f09%2f17%2f10%2f35%2f540707.jpg&ehk=6y3gW5%2bS4L6h6L5p6m4T6q0t3j6D9d0j9aK4n1k6f1g%3d&risl=&pid=ImgRaw&r=0',
+    poster: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/8d91579b5583df237cfb224044bf16645e4699b2728c51d17cec99d18fffcedf._RI_V_TTW_.jpg',
     platforms: [
-      { name: 'HBO Max', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/HBO_Max_Logo.svg' }
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=kY7-D844l4o'
+    trailer: 'https://www.youtube.com/watch?v=uLdqc4SFVsA'
   },
   {
     title: 'A Corrente do Mal',
     year: '2014',
     genre: 'Sobrenatural',
-    description: 'Uma adolescente é perseguida por uma entidade maligna após uma experiência sexual, e a única forma de se livrar dela é passando-a adiante.',
+    description: 'Jay (Maika Monroe) é uma jovem que, após uma relação sexual, descobre que foi amaldiçoada por uma entidade sobrenatural que a persegue lentamente — e só ela pode vê-la. A única forma de se livrar da maldição é transmiti-la para outra pessoa por meio do sexo. Mas se a nova vítima morrer, a entidade volta a perseguir o anterior. Jay precisa decidir entre fugir, lutar ou passar adiante essa corrente maligna. ',
     rating: '6.8',
-    poster: 'https://th.bing.com/th/id/R.459d2a6a655761a2958f00030613e144?rik=3g1T5sB0b7eB3w&riu=http%3a%2f%2fbr.web.img2.acsta.net%2fr_1280_720%2fpictures%2f14%2f09%2f24%2f18%2f08%2f088484.jpg&ehk=7u3b4x4F7q5N1J5m7n6O7k4L3g4D8p2t8n0o9k7g6e%3d&risl=&pid=ImgRaw&r=0',
+    poster: 'https://media.fstatic.com/JbE0HGXBssq2se4UeXL42Slr2Qk=/210x312/smart/filters:format(webp)/media/movies/covers/2019/04/MV5BMTI4NjM0MDU4OV5BMl5BanBnXkFtZTcwNzc1MDA3Mg._V1_.jpg',
     platforms: [
-      { name: 'HBO Max', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/HBO_Max_Logo.svg' },
-      { name: 'Apple TV', logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Apple_TV_logo.svg' }
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=Yf1e40wN51g'
+    trailer: 'https://www.youtube.com/watch?v=s8EE554SvpI'
   },
   {
     title: 'O Grito',
