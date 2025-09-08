@@ -5,7 +5,7 @@ const movies = [
     genre: 'Psicológico',
     description: 'Jack Torrance, um escritor em crise e alcoólatra em recuperação, aceita o trabalho de zelador de inverno no isolado Hotel Overlook, nas montanhas do Colorado. Ele se muda para lá com sua esposa Wendy e seu filho Danny, que possui habilidades psíquicas chamadas de “iluminação”, capazes de revelar horrores do passado e prever eventos futuros. Com o isolamento e a influência sobrenatural do hotel, Jack começa a perder a sanidade, colocando sua família em perigo.',
     rating: '8.4',
-    poster: 'https://br.web.img2.acsta.net/r_1280_720/pictures/17/09/21/17/20/1333631.jpg',
+    poster: 'https://i.pinimg.com/736x/a2/0e/70/a20e700f99b4391d83031c9f12a8ed8e.jpg',
     platforms: [
       { name: 'HBO Max', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg' },
       { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' }
@@ -111,7 +111,7 @@ const movies = [
     genre: 'Psicológico',
     description: 'Amelia (Essie Davis) é uma mãe viúva que luta para lidar com a perda do marido e os comportamentos inquietantes de seu filho, Samuel. A tensão aumenta quando um misterioso livro infantil chamado "O Senhor Babadook" aparece em casa. A história do livro fala sobre uma criatura sombria que se infiltra na vida de quem o conhece. À medida que eventos estranhos começam a acontecer, Amelia precisa enfrentar seus próprios traumas — e o monstro que pode ser mais real do que ela imagina. ',
     rating: '6.8',
-    poster: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/8d91579b5583df237cfb224044bf16645e4699b2728c51d17cec99d18fffcedf._RI_V_TTW_.jpg',
+    poster: 'https://br.web.img2.acsta.net/pictures/14/01/23/02/58/013133.jpg',
     platforms: [
       { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
@@ -123,7 +123,7 @@ const movies = [
     genre: 'Sobrenatural',
     description: 'Jay (Maika Monroe) é uma jovem que, após uma relação sexual, descobre que foi amaldiçoada por uma entidade sobrenatural que a persegue lentamente — e só ela pode vê-la. A única forma de se livrar da maldição é transmiti-la para outra pessoa por meio do sexo. Mas se a nova vítima morrer, a entidade volta a perseguir o anterior. Jay precisa decidir entre fugir, lutar ou passar adiante essa corrente maligna. ',
     rating: '6.8',
-    poster: 'https://media.fstatic.com/JbE0HGXBssq2se4UeXL42Slr2Qk=/210x312/smart/filters:format(webp)/media/movies/covers/2019/04/MV5BMTI4NjM0MDU4OV5BMl5BanBnXkFtZTcwNzc1MDA3Mg._V1_.jpg',
+    poster: 'https://i.pinimg.com/736x/62/1f/3f/621f3f9f9b62a0e67b35a45c5b1c8584.jpg',
     platforms: [
       { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
@@ -135,7 +135,7 @@ const movies = [
     genre: 'Fantasma',
     description: 'Um espírito vingativo e assustador assombra uma casa no Japão e infecta todos que entram nela com uma maldição mortal.',
     rating: '5.9',
-    poster: 'https://th.bing.com/th/id/R.a8c432d96924b22c027b4e99f57d6e66?rik=zW9Yc0K8r3M1%2fQ&riu=http%3a%2f%2fbr.web.img1.acsta.net%2fr_1280_720%2fpictures%2f14%2f03%2f20%2f21%2f09%2f039433.jpg&ehk=F6w5W6K8w3d3S4e5w6o2K4m8Q3h6R7g7w8k6K3f8h5g%3d&risl=&pid=ImgRaw&r=0',
+    poster: 'https://i.pinimg.com/1200x/7d/e6/5c/7de65cc9339e787bc689f152dccda64a.jpg',
     platforms: [
       { name: 'HBO Max', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/HBO_Max_Logo.svg' }
     ],
@@ -147,7 +147,7 @@ const movies = [
     genre: 'Possessão',
     description: 'Um casal encontra uma boneca antiga para sua filha, mas logo descobrem que ela está possuída por uma entidade demoníaca.',
     rating: '5.4',
-    poster: 'https://th.bing.com/th/id/R.a7428c0c8b329c3686d6347101869e92?rik=M6p3Y5q8f4C6Q6g&riu=http%3a%2f%2fbr.web.img3.acsta.net%2fr_1280_720%2fpictures%2f14%2f08%2f14%2f11%2f41%2f260404.jpg&ehk=4n8j9h7g6e7f8k5l8m0h6j5k2l9j4k5l0o9k7g6e%3d&risl=&pid=ImgRaw&r=0',
+    poster: 'https://i.pinimg.com/736x/0c/7a/ae/0c7aaeec1fc8a649e17e16a90cb16284.jpg',
     platforms: [
       { name: 'HBO Max', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/HBO_Max_Logo.svg' }
     ],
@@ -159,7 +159,7 @@ const movies = [
     genre: 'Slasher',
     description: 'Cinco amigos que viajam pelo Texas são atacados por uma família de canibais, incluindo um serial killer mascarado com uma serra elétrica.',
     rating: '7.5',
-    poster: 'https://th.bing.com/th/id/R.6d214c77d4c7b8053f317b3d3f1d8e12?rik=w54z9j9x1k5y6g&riu=http%3a%2f%2fbr.web.img1.acsta.net%2fr_1280_720%2fpictures%2f18%2f08%2f28%2f17%2f17%2f5053158.jpg&ehk=k3j7h8g6h6l6m8k9j0p2l9h7g6d4e2f9j8k7h6g%3d&risl=&pid=ImgRaw&r=0',
+    poster: 'https://i.pinimg.com/736x/f7/79/fe/f779fe3b824cbcfb5656db6339ca3b75.jpg',
     platforms: [
       { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
@@ -171,7 +171,7 @@ const movies = [
     genre: 'Zumbi',
     description: 'Um grupo de sobreviventes se refugia em uma fazenda isolada para se proteger de uma horda de zumbis sedentos por carne humana.',
     rating: '7.9',
-    poster: 'https://th.bing.com/th/id/R.2435e2194b15d2a297e289c0255b8981?rik=8y3k8l4h5l6j9g&riu=http%3a%2f%2fbr.web.img3.acsta.net%2fr_1280_720%2fpictures%2f14%2f03%2f20%2f19%2f54%2f173872.jpg&ehk=S3e3v4n5m6p7o8k4j5l6h4f8g7h2i6k7l0m9j2g%3d&risl=&pid=ImgRaw&r=0',
+    poster: 'https://i.pinimg.com/736x/1a/13/bc/1a13bc2d05bd65534b71a3790518e041.jpg',
     platforms: [
       { name: 'Apple TV', logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Apple_TV_logo.svg' }
     ],
@@ -183,7 +183,7 @@ const movies = [
     genre: 'Zumbi',
     description: 'Um grupo de ativistas libera macacos infectados com um vírus que transforma as pessoas em monstros sedentos por violência.',
     rating: '7.6',
-    poster: 'https://th.bing.com/th/id/R.a70b201f9e2f9b871c82823058a5c2d3?rik=sI%2bM3P92f9t78g&riu=http%3a%2f%2fbr.web.img2.acsta.net%2fr_1280_720%2fpictures%2f14%2f03%2f20%2f20%2f57%2f114441.jpg&ehk=v5j2j9k3l8h5g6i2j7m4k9l4o0p9k5j4l2h7f8d%3d&risl=&pid=ImgRaw&r=0',
+    poster: 'https://i.pinimg.com/736x/81/54/c9/8154c9e944b9b0c14314a83a68b04192.jpg',
     platforms: [
       { name: 'Disney+', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg' }
     ],
@@ -210,7 +210,7 @@ const movies = [
     genre: 'Alien',
     description: 'Cientistas na Antártida descobrem uma criatura alienígena que pode imitar perfeitamente outros organismos, criando uma atmosfera de paranoia.',
     rating: '8.2',
-    poster: 'https://image.tmdb.org/t/p/w500/rC8GkO9b775t7p84Q3vU19r1cQJ.jpg',
+    poster: 'https://i.pinimg.com/1200x/bd/13/ae/bd13ae04278d64637bd83acd00f12ee1.jpg',
     trailer: 'https://www.youtube.com/watch?v=Gj9c9t6C8iI',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -220,7 +220,7 @@ const movies = [
     genre: 'Slasher',
     description: 'Na noite de Halloween, um assassino mascarado escapa de uma instituição psiquiátrica e retorna para sua cidade natal em busca de novas vítimas.',
     rating: '7.7',
-    poster: 'https://image.tmdb.org/t/p/w500/1X6M6y50sXj801j00T75lJ5t5bQ.jpg',
+    poster: 'https://i.pinimg.com/736x/e4/fe/07/e4fe07e0648bb5a167b3fe7d34b0852b.jpg',
     trailer: 'https://www.youtube.com/watch?v=T5KEoX43jW0',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -230,7 +230,7 @@ const movies = [
     genre: 'Body Horror',
     description: 'Dois mochileiros americanos são atacados por uma criatura na Inglaterra. Um sobrevive e passa por uma transformação terrível.',
     rating: '7.5',
-    poster: 'https://image.tmdb.org/t/p/w500/lM8Kj3U48oE3sU5aP8W1o8D6h2c.jpg',
+    poster: 'https://i.pinimg.com/1200x/2e/99/92/2e9992c2fafc6ceec3730c0d2e84050c.jpg',
     trailer: 'https://www.youtube.com/watch?v=Qc1-1eXk8Xo',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -241,17 +241,17 @@ const movies = [
     genre: 'Slasher',
     description: 'Um assassino misterioso, obcecado por filmes de terror, começa a caçar um grupo de adolescentes em uma pequena cidade.',
     rating: '7.4',
-    poster: 'https://image.tmdb.org/t/p/w500/qj8f244Fq75r1oV8v5lq5w0jQ2v.jpg',
+    poster: 'https://i.pinimg.com/736x/3c/a9/df/3ca9dfd5a765dc02e67ccd8dcaddc976.jpg',
     trailer: 'https://www.youtube.com/watch?v=lU6qR-683a4',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
   {
-    title: 'A Múmia',
+    title: 'Sorria',
     year: '1932',
-    genre: 'Sobrenatural',
+    genre: 'Demônio',
     description: 'Uma múmia egípcia é ressuscitada por arqueólogos e busca sua amada perdida, causando terror e destruição.',
     rating: '7.1',
-    poster: 'https://image.tmdb.org/t/p/w500/v9Qo5Xq4x5Y40w46q6p9n7l1pXf.jpg',
+    poster: 'https://i.pinimg.com/736x/ef/c0/01/efc0018a5a3290b96a2ba1898f4b42b7.jpg',
     trailer: 'https://www.youtube.com/watch?v=64nNq1B3_gA',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -261,7 +261,7 @@ const movies = [
     genre: 'Alien',
     description: 'A tripulação de uma nave espacial encontra uma forma de vida alienígena em um planeta remoto. Mal sabem que a criatura se infiltrou em sua nave.',
     rating: '8.5',
-    poster: 'https://image.tmdb.org/t/p/w500/2Lh20rQ2m1lVd5N1l2w1i9K7d2w.jpg',
+    poster: 'https://i.pinimg.com/736x/e9/df/cb/e9dfcbb9bab4ce2b06ea365448a4b8ef.jpg',
     trailer: 'https://www.youtube.com/watch?v=Sy6S0wV_Xm4',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -271,7 +271,7 @@ const movies = [
     genre: 'Slasher',
     description: 'Um grupo de adolescentes é atormentado em seus sonhos por Freddy Krueger, um assassino que usa um tipo de luva com lâminas nas pontas dos dedos.',
     rating: '7.2',
-    poster: 'https://image.tmdb.org/t/p/w500/h2mD4d99pM4G4X1Q5s6p5m5D5l5.jpg',
+    poster: 'https://i.pinimg.com/1200x/4c/10/fb/4c10fbd837821e4087be3b483c133499.jpg',
     trailer: 'https://www.youtube.com/watch?v=d_kR3n2610A',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -281,7 +281,7 @@ const movies = [
     genre: 'Culto',
     description: 'Uma estudante americana de dança viaja para uma prestigiada academia de balé em Berlim, apenas para descobrir que o lugar esconde segredos sombrios de bruxaria.',
     rating: '7.4',
-    poster: 'https://image.tmdb.org/t/p/w500/pT85aT5j55K4jP0930n4n5w6g6c.jpg',
+    poster: 'https://i.pinimg.com/736x/70/0b/2b/700b2b36ce38e5532c13d77c8db8b29f.jpg',
     trailer: 'https://www.youtube.com/watch?v=3P3s0g1P6vQ',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -291,7 +291,7 @@ const movies = [
     genre: 'Sobrenatural',
     description: 'Um grupo de crianças se une para enfrentar uma criatura maligna que se manifesta como o palhaço Pennywise.',
     rating: '7.3',
-    poster: 'https://image.tmdb.org/t/p/w500/9J4d6yCq4qS82wSg8dFh9J7Xz7V.jpg',
+    poster: 'https://i.pinimg.com/736x/f3/80/58/f38058b1a34ede5900444dc5937d7250.jpg',
     trailer: 'https://www.youtube.com/watch?v=j3d6FmO3h_c',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -301,7 +301,7 @@ const movies = [
     genre: 'Fantasma',
     description: 'Uma jornalista investiga uma fita de vídeo amaldiçoada que causa a morte de quem a assiste em sete dias.',
     rating: '7.1',
-    poster: 'https://image.tmdb.org/t/p/w500/d59yS7jL738zP5p75bK72yY7L1p.jpg',
+    poster: 'https://i.pinimg.com/736x/61/37/0c/61370c6f605eb1738ea325fe2fdba219.jpg',
     trailer: 'https://www.youtube.com/watch?v=q0iB65j_S0E',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -311,7 +311,7 @@ const movies = [
     genre: 'Thriller',
     description: 'Uma jovem agente do FBI busca a ajuda de um assassino e psicopata canibal, Hannibal Lecter, para capturar outro serial killer.',
     rating: '8.6',
-    poster: 'https://image.tmdb.org/t/p/w500/4F6ZcE86P2aI7Ff7f2t1wX7Q5w2.jpg',
+    poster: 'https://i.pinimg.com/1200x/54/c5/06/54c506983fa4efb5fc71af49810b8f55.jpg',
     trailer: 'https://www.youtube.com/watch?v=W6Mm8gBL7pI',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -321,27 +321,27 @@ const movies = [
     genre: 'Fantasma',
     description: 'Uma família se muda para uma casa nova, apenas para descobrir que ela é assombrada por espíritos malignos que se comunicam através da televisão.',
     rating: '7.3',
-    poster: 'https://image.tmdb.org/t/p/w500/1X6M6y50sXj801j00T75lJ5t5bQ.jpg',
+    poster: 'https://i.pinimg.com/736x/67/46/1a/67461aafc0b7fcde90ad343cfa0656b9.jpg',
     trailer: 'https://www.youtube.com/watch?v=F_f0j7x9p3c',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
   {
-    title: 'Nosferatu',
-    year: '1922',
-    genre: 'Vampiro',
-    description: 'Um agente imobiliário viaja para os Cárpatos para fechar um negócio com um conde recluso, que na verdade é um vampiro ancestral.',
-    rating: '7.9',
-    poster: 'https://image.tmdb.org/t/p/w500/gW5j3fE5aX3T32N7sL1wN1R3qG.jpg',
+    title: 'Longlegs',
+    year: '2024',
+    genre: 'Psicológico',
+    description: 'A trama acompanha Lee Harker (Maika Monroe), uma jovem agente do FBI convocada para investigar uma série de assassinatos arquivados. Conforme ela mergulha no caso, descobre que os crimes estão ligados a rituais ocultistas e que há uma conexão pessoal perturbadora entre ela e o assassino — interpretado por Nicolas Cage, em uma performance intensa e enigmática',
+    rating: '7.0',
+    poster: 'https://image.tmdb.org/t/p/original/jpTxtwM1AXzEwYghzF06zsSF0pc.jpg',
     trailer: 'https://www.youtube.com/watch?v=FC6rD_K7wB4',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
   {
     title: 'Carrie, a Estranha',
-    year: '1976',
+    year: '2013',
     genre: 'Sobrenatural',
     description: 'Uma adolescente tímida e oprimida descobre que tem poderes telecinéticos, que se manifestam de forma violenta após ser humilhada em seu baile de formatura.',
-    rating: '7.4',
-    poster: 'https://image.tmdb.org/t/p/w500/uF2c6tXl8d9u55Jp1x8uT2sV2tL.jpg',
+    rating: '6,0',
+    poster: 'https://i.pinimg.com/1200x/02/b3/fe/02b3fed5fa3fe2f1c8d64ca23cfe041a.jpg',
     trailer: 'https://www.youtube.com/watch?v=aG0K9j3mGjY',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -351,7 +351,7 @@ const movies = [
     genre: 'Zumbi',
     description: 'Um grupo de sobreviventes se esconde em um shopping center para se proteger de uma horda de mortos que subitamente voltaram à vida.',
     rating: '7.8',
-    poster: 'https://image.tmdb.org/t/p/w500/7aQz8z0x6o0194Q60X3M5Jb24.jpg',
+    poster: 'https://i.pinimg.com/1200x/6e/fc/10/6efc10fb89724072dfc2a6da9ddd24b3.jpg',
     trailer: 'https://www.youtube.com/watch?v=mYm64g6m1t0',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -361,17 +361,17 @@ const movies = [
     genre: 'Body Horror',
     description: 'Um cientista se transforma em uma criatura horripilante após um de seus experimentos de teletransporte dar errado.',
     rating: '7.6',
-    poster: 'https://image.tmdb.org/t/p/w500/e9N4gJ8l4l8N4v2k0n1w4e892e5.jpg',
+    poster: 'https://i.pinimg.com/736x/48/02/81/48028120c3185a69614ee2fc1c9955ec.jpg',
     trailer: 'https://www.youtube.com/watch?v=Fj-y55Qk-9g',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
   {
-    title: 'Uma Noite Alucinante',
-    year: '1981',
-    genre: 'Possessão',
+    title: 'A Morte Do Demônio: A Ascenção',
+    year: '2023',
+    genre: 'Demônio',
     description: 'Cinco amigos viajam para uma cabana isolada na floresta, onde acidentalmente libertam demônios que possuíam os mortos.',
-    rating: '7.4',
-    poster: 'https://image.tmdb.org/t/p/w500/sY6u6q3c4X5xX1v5N4e46q6u8y.jpg',
+    rating: '6,5',
+    poster: 'https://i.pinimg.com/1200x/e2/77/23/e27723f80ff94c19c112bef9a9ea5eb7.jpg',
     trailer: 'https://www.youtube.com/watch?v=coj331q3L2A',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -381,7 +381,7 @@ const movies = [
     genre: 'Apocalíptico',
     description: 'Um homem acorda de um coma e descobre que a Grã-Bretanha foi devastada por um vírus que transforma as pessoas em assassinos violentos.',
     rating: '7.6',
-    poster: 'https://image.tmdb.org/t/p/w500/uO3p0j5d91x1n8e3w4r50w1t2uL.jpg',
+    poster: 'https://i.pinimg.com/736x/4f/59/6d/4f596d2f9f5fef4b2b57b51f04e836aa.jpg',
     trailer: 'https://www.youtube.com/watch?v=l_xH3W2g8vQ',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -392,7 +392,7 @@ const movies = [
     genre: 'Thriller',
     description: 'Seis amigas exploram um sistema de cavernas inexplorado, mas ficam presas e descobrem que não estão sozinhas lá embaixo.',
     rating: '7.2',
-    poster: 'https://image.tmdb.org/t/p/w500/d59yS7jL738zP5p75bK72yY7L1p.jpg',
+    poster: 'https://i.pinimg.com/736x/a8/5e/ea/a85eea4b74be033625155cc65eab9c10.jpg',
     trailer: 'https://www.youtube.com/watch?v=0k7b3N26_pU',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -402,7 +402,7 @@ const movies = [
     genre: 'Vampiro',
     description: 'Uma nova adaptação do clássico conto de vampiro, com uma abordagem sombria e gótica.',
     rating: null,
-    poster: 'URL_DO_POSTER_NOSFERATU_2024',
+    poster: 'https://tse3.mm.bing.net/th/id/OIP.hHRHKSqaFMwfiQ-K4ndvRQHaK-?cb=thfvnextucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -1023,4 +1023,5 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
