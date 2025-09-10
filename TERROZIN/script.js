@@ -133,227 +133,276 @@ const movies = [
     title: 'O Grito',
     year: '2004',
     genre: 'Fantasma',
-    description: 'Um espírito vingativo e assustador assombra uma casa no Japão e infecta todos que entram nela com uma maldição mortal.',
+    description: 'O filme segue uma enfermeira americana chamada Karen (interpretada por Sarah Michelle Gellar) que está morando e trabalhando em Tóquio. Ela é exposta a uma maldição misteriosa e violenta que nasce quando uma pessoa morre em um momento de extremo terror ou tristeza. Essa maldição transforma a casa onde a morte ocorreu em um lugar assombrado, onde os espíritos da família morta atacam qualquer um que ouse entrar. A maldição é voraz e não perdoa ninguém, passando a se espalhar para outras vítimas, uma por uma.',
     rating: '5.9',
     poster: 'https://i.pinimg.com/1200x/7d/e6/5c/7de65cc9339e787bc689f152dccda64a.jpg',
     platforms: [
-      { name: 'HBO Max', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/HBO_Max_Logo.svg' }
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=FjI1gP88T3U'
+    trailer: 'https://www.youtube.com/watch?v=Kp_-KZH_vlQ'
   },
   {
     title: 'Annabelle',
     year: '2014',
     genre: 'Possessão',
-    description: 'Um casal encontra uma boneca antiga para sua filha, mas logo descobrem que ela está possuída por uma entidade demoníaca.',
+    description: 'John presenteia sua esposa grávida, Mia, com uma rara boneca antiga chamada Annabelle. Mas a alegria logo se transforma em horror quando membros de uma seita satânica invadem a casa do casal e realizam um ritual sangrento envolvendo a boneca. A partir daí, eventos sobrenaturais e aterrorizantes passam a assombrar a vida de Mia, revelando que Annabelle é muito mais do que um simples brinquedo. ',
     rating: '5.4',
     poster: 'https://i.pinimg.com/736x/0c/7a/ae/0c7aaeec1fc8a649e17e16a90cb16284.jpg',
     platforms: [
-      { name: 'HBO Max', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/HBO_Max_Logo.svg' }
+      { name: 'HBO Max', logo: ' https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg' },
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=t-qE8VwG4uI'
+    trailer: 'https://www.youtube.com/watch?v=kHl6aU30pIo'
   },
   {
     title: 'O Massacre da Serra Elétrica',
     year: '1974',
     genre: 'Slasher',
-    description: 'Cinco amigos que viajam pelo Texas são atacados por uma família de canibais, incluindo um serial killer mascarado com uma serra elétrica.',
-    rating: '7.5',
+    description: 'Cinco jovens viajam pelo interior do Texas para visitar o túmulo de um parente, mas acabam se deparando com uma casa isolada e uma família de canibais liderada por Leatherface, um assassino que usa uma máscara feita de pele humana e uma serra elétrica como arma. O filme é inspirado em crimes reais e se tornou um marco do gênero slasher por seu estilo cru e perturbador. ',
+    rating: '7.4',
     poster: 'https://i.pinimg.com/736x/f7/79/fe/f779fe3b824cbcfb5656db6339ca3b75.jpg',
     platforms: [
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' },
       { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=T_S27R_8X3A'
+    trailer: 'https://www.youtube.com/watch?v=j0x2MtFNbVQ'
   },
   {
     title: 'A Noite dos Mortos-Vivos',
     year: '1968',
     genre: 'Zumbi',
-    description: 'Um grupo de sobreviventes se refugia em uma fazenda isolada para se proteger de uma horda de zumbis sedentos por carne humana.',
-    rating: '7.9',
+    description: 'Após a queda de um satélite, uma radiação misteriosa faz com que os mortos comecem a sair de suas covas e atacar os vivos. Um grupo de sobreviventes se refugia em uma casa de fazenda isolada, tentando resistir à crescente horda de zumbis famintos. O filme é uma crítica social disfarçada de horror, abordando temas como racismo, paranoia e desespero coletivo. ',
+    rating: '7.8',
     poster: 'https://i.pinimg.com/736x/1a/13/bc/1a13bc2d05bd65534b71a3790518e041.jpg',
     platforms: [
-      { name: 'Apple TV', logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Apple_TV_logo.svg' }
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=nE5n2T5oU-4'
+    trailer: 'https://www.youtube.com/watch?v=V5YL6ZwN0HE'
   },
   {
     title: '28 Dias Depois',
     year: '2002',
     genre: 'Zumbi',
-    description: 'Um grupo de ativistas libera macacos infectados com um vírus que transforma as pessoas em monstros sedentos por violência.',
-    rating: '7.6',
+    description: 'Um grupo de ativistas invade um laboratório em Cambridge e liberta um chimpanzé infectado com um vírus altamente contagioso que provoca extrema agressividade — o vírus da raiva. Em poucas horas, o surto se espalha por toda a Grã-Bretanha, mergulhando o país no caos. Vinte e oito dias depois, Jim (Cillian Murphy) acorda de um coma em um hospital abandonado e descobre que o mundo que conhecia não existe mais. Ele se junta a outros sobreviventes em busca de abrigo, enfrentando não apenas os infectados, mas também os horrores da própria humanidade. ',
+    rating: '7.5',
     poster: 'https://i.pinimg.com/736x/81/54/c9/8154c9e944b9b0c14314a83a68b04192.jpg',
     platforms: [
-      { name: 'Disney+', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg' }
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' },
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'HBO MAX', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=e_wK5gLgR_4'
+    trailer: 'https://www.youtube.com/watch?v=mWEhfF27O0c'
   },
 
   {
     title: 'Psicose',
     year: '1960',
     genre: 'Thriller',
-    description: 'Uma secretária em fuga se hospeda em um motel isolado, gerenciado por um jovem estranho, e descobre seus segredos sombrios.',
-    rating: '8.4',
+    description: 'Marion Crane, uma jovem secretária, rouba uma grande quantia de dinheiro e foge da cidade. Durante sua fuga, ela decide se hospedar no isolado Bates Motel, administrado por Norman Bates, um homem tímido e perturbador que vive com sua mãe. O que parecia apenas uma parada estratégica se transforma em um pesadelo, culminando em uma das cenas mais icônicas da história do cinema — o famoso assassinato no chuveiro. ',
+    rating: '8.5',
     poster: 'https://th.bing.com/th/id/R.5e2dddcdb52f89de539385695fe9f80a?rik=VifRR48JVzMDmA&pid=ImgRaw&r=0',
-    trailer: 'https://www.youtube.com/watch?v=NG3-jpK_6yE',
-    whereToWatch: [
-      { name: 'Globoplay', url: 'https://globoplay.globo.com/psicose/t/Vf0m7wW6d6m6wL1s1t4p4x4y7d4s5f6e8d1q7d8f5d/assistir/' },
-      { name: 'Apple TV', url: 'https://tv.apple.com/br/movie/psicose/umc.cmc.2b2p5a7o9m8b2w7c6c4f3f4c6b6b6c2c' }
-    ]
+    platforms: [
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' },
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+    ],
+    trailer: 'https://www.youtube.com/watch?v=wfGjWZmyvfo',
   },
   
   {
     title: 'O Enigma de Outro Mundo',
     year: '1982',
     genre: 'Alien',
-    description: 'Cientistas na Antártida descobrem uma criatura alienígena que pode imitar perfeitamente outros organismos, criando uma atmosfera de paranoia.',
+    description: 'Na vastidão gelada da Antártica, uma equipe de 12 pesquisadores americanos se depara com um mistério mortal: um alienígena capaz de imitar perfeitamente qualquer ser vivo que infecta. Quando um cachorro aparentemente comum chega à base, eventos estranhos começam a acontecer. A paranoia se instala — ninguém sabe quem ainda é humano. A tensão cresce à medida que os cientistas tentam descobrir quem foi "copiado" e como eliminar a criatura antes que ela escape para o mundo exterior. ',
     rating: '8.2',
     poster: 'https://i.pinimg.com/1200x/bd/13/ae/bd13ae04278d64637bd83acd00f12ee1.jpg',
-    trailer: 'https://www.youtube.com/watch?v=Gj9c9t6C8iI',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' },
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+    ],
+    trailer: 'https://www.youtube.com/watch?v=V0m6YCDzvK0',
   },
   {
     title: 'Halloween',
     year: '1978',
     genre: 'Slasher',
-    description: 'Na noite de Halloween, um assassino mascarado escapa de uma instituição psiquiátrica e retorna para sua cidade natal em busca de novas vítimas.',
+    description: 'Na noite de Halloween de 1963, o jovem Michael Myers, de apenas seis anos, assassina brutalmente sua irmã mais velha. Quinze anos depois, ele escapa de um hospital psiquiátrico e retorna à cidade de Haddonfield, Illinois, para continuar sua onda de assassinatos. A jovem Laurie Strode (Jamie Lee Curtis) se torna seu principal alvo, enquanto o psiquiatra Dr. Sam Loomis tenta impedir o massacre. O filme é conhecido por sua atmosfera tensa, trilha sonora icônica e por ter inaugurado uma nova era no cinema de terror. ',
     rating: '7.7',
     poster: 'https://i.pinimg.com/736x/e4/fe/07/e4fe07e0648bb5a167b3fe7d34b0852b.jpg',
-    trailer: 'https://www.youtube.com/watch?v=T5KEoX43jW0',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+    ],
+    trailer: 'https://www.youtube.com/watch?v=emN1KbD_DxM',
   },
   {
     title: 'Um Lobisomem Americano em Londres',
     year: '1981',
     genre: 'Body Horror',
-    description: 'Dois mochileiros americanos são atacados por uma criatura na Inglaterra. Um sobrevive e passa por uma transformação terrível.',
+    description: 'Dois estudantes americanos, David e Jack, estão viajando pela Inglaterra quando são atacados por uma criatura misteriosa em uma estrada deserta. Jack morre, mas David sobrevive — e logo descobre que foi mordido por um lobisomem. Enquanto se recupera em um hospital em Londres, ele começa a ter visões perturbadoras do amigo morto, que o alerta: David está condenado a se transformar na próxima lua cheia. O filme combina horror visceral com momentos de humor ácido e é famoso por sua transformação de lobisomem, feita com efeitos práticos revolucionários para a época. ',
     rating: '7.5',
     poster: 'https://i.pinimg.com/1200x/2e/99/92/2e9992c2fafc6ceec3730c0d2e84050c.jpg',
-    trailer: 'https://www.youtube.com/watch?v=Qc1-1eXk8Xo',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=bTWBw-E_kDM',
   },
   
   {
     title: 'Pânico',
     year: '1996',
     genre: 'Slasher',
-    description: 'Um assassino misterioso, obcecado por filmes de terror, começa a caçar um grupo de adolescentes em uma pequena cidade.',
+    description: 'Na pacata cidade de Woodsboro, a jovem Sidney Prescott começa a receber ligações ameaçadoras de um assassino mascarado que adora fazer perguntas sobre filmes de terror. Quem erra... morre. À medida que os assassinatos aumentam, Sidney e seus amigos precisam desvendar quem está por trás da máscara de Ghostface, enquanto enfrentam seus próprios traumas e segredos. O filme brinca com os clichês do gênero e os subverte de forma inteligente. ',
     rating: '7.4',
     poster: 'https://i.pinimg.com/736x/3c/a9/df/3ca9dfd5a765dc02e67ccd8dcaddc976.jpg',
-    trailer: 'https://www.youtube.com/watch?v=lU6qR-683a4',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=swzTZ2mQypM',
   },
   {
     title: 'Sorria',
-    year: '1932',
+    year: '2022',
     genre: 'Demônio',
-    description: 'Uma múmia egípcia é ressuscitada por arqueólogos e busca sua amada perdida, causando terror e destruição.',
-    rating: '7.1',
+    description: 'A Dra. Rose Cotter (Sosie Bacon) é uma psiquiatra que presencia o suicídio brutal de uma paciente em seu consultório. Após o evento, Rose começa a vivenciar aparições bizarras e visões de pessoas com sorrisos perturbadores. À medida que mergulha em uma investigação para entender o fenômeno, ela descobre uma entidade maligna que se propaga por meio de traumas e mortes violentas. Para sobreviver, Rose precisa enfrentar seu passado e desvendar o ciclo macabro antes que seja tarde demais. ',
+    rating: '6.5',
     poster: 'https://i.pinimg.com/736x/ef/c0/01/efc0018a5a3290b96a2ba1898f4b42b7.jpg',
-    trailer: 'https://www.youtube.com/watch?v=64nNq1B3_gA',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'},
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+    ],
+    trailer: 'https://www.youtube.com/watch?v=lztr0VOb-_s',
   },
   {
     title: 'Alien, o Oitavo Passageiro',
     year: '1979',
     genre: 'Alien',
-    description: 'A tripulação de uma nave espacial encontra uma forma de vida alienígena em um planeta remoto. Mal sabem que a criatura se infiltrou em sua nave.',
+    description: 'A nave comercial Nostromo recebe um sinal de socorro vindo de um planeta desconhecido. Ao investigar, a tripulação encontra uma criatura alienígena que se aloja no corpo de um dos tripulantes. O que parecia um incidente isolado se transforma em um pesadelo claustrofóbico: o alien cresce rapidamente e começa a caçar os membros da equipe um a um. A protagonista Ripley (Sigourney Weaver) emerge como uma das heroínas mais icônicas do cinema, enfrentando o horror em meio ao vazio do espaço. ',
     rating: '8.5',
     poster: 'https://i.pinimg.com/736x/e9/df/cb/e9dfcbb9bab4ce2b06ea365448a4b8ef.jpg',
-    trailer: 'https://www.youtube.com/watch?v=Sy6S0wV_Xm4',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Disney', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg' }
+    ],
+    trailer: 'https://www.youtube.com/watch?v=wJgoed2eo5U',
   },
   {
     title: 'A Hora do Pesadelo',
     year: '1984',
     genre: 'Slasher',
-    description: 'Um grupo de adolescentes é atormentado em seus sonhos por Freddy Krueger, um assassino que usa um tipo de luva com lâminas nas pontas dos dedos.',
-    rating: '7.2',
+    description: 'Na cidade de Springwood, adolescentes começam a ter pesadelos com um homem desfigurado que usa uma luva com lâminas afiadas. Quando um deles morre durante o sono, os outros percebem que o sonho é real — e que dormir pode ser fatal. O assassino é Freddy Krueger, um espírito vingativo que ataca suas vítimas nos sonhos, onde ele é mais poderoso. ',
+    rating: '5.2',
     poster: 'https://i.pinimg.com/1200x/4c/10/fb/4c10fbd837821e4087be3b483c133499.jpg',
-    trailer: 'https://www.youtube.com/watch?v=d_kR3n2610A',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'HBO MAX', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg'},
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+      
+    ],
+    trailer: 'https://www.youtube.com/watch?v=16IpwmLGHkU',
   },
   {
     title: 'Suspiria',
     year: '1977',
     genre: 'Culto',
-    description: 'Uma estudante americana de dança viaja para uma prestigiada academia de balé em Berlim, apenas para descobrir que o lugar esconde segredos sombrios de bruxaria.',
-    rating: '7.4',
+    description: 'A jovem bailarina americana Susie Bannion (Dakota Johnson) chega à prestigiada Markos Tanz Company, em Berlim, logo após o misterioso desaparecimento de outra dançarina. À medida que se destaca na companhia, Susie começa a perceber que há algo sinistro por trás das coreografias e da liderança da enigmática Madame Blanc (Tilda Swinton). O que parecia ser uma escola de dança se revela como o centro de um culto de bruxas ancestrais, envolto em rituais, possessões e sacrifícios.',
+    rating: '6.7',
     poster: 'https://i.pinimg.com/736x/70/0b/2b/700b2b36ce38e5532c13d77c8db8b29f.jpg',
-    trailer: 'https://www.youtube.com/watch?v=3P3s0g1P6vQ',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+    ],
+    trailer: 'https://www.youtube.com/watch?v=BY6QKRl56Ok',
   },
   {
     title: 'IT - A Coisa',
     year: '2017',
     genre: 'Sobrenatural',
-    description: 'Um grupo de crianças se une para enfrentar uma criatura maligna que se manifesta como o palhaço Pennywise.',
+    description: 'Na cidade de Derry, no estado do Maine, crianças começam a desaparecer misteriosamente. Um grupo de sete adolescentes — o Clube dos Perdedores — se une para enfrentar o responsável: Pennywise, um palhaço demoníaco que se alimenta dos medos mais profundos de suas vítimas. A história mistura terror sobrenatural com temas de amizade, trauma e amadurecimento, criando uma narrativa envolvente e assustadora. ',
     rating: '7.3',
     poster: 'https://i.pinimg.com/736x/f3/80/58/f38058b1a34ede5900444dc5937d7250.jpg',
-    trailer: 'https://www.youtube.com/watch?v=j3d6FmO3h_c',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=dD264ZjfKlk',
   },
   {
     title: 'O Chamado 2',
     year: '2005',
     genre: 'Fantasma',
-    description: 'Uma jornalista investiga uma fita de vídeo amaldiçoada que causa a morte de quem a assiste em sete dias.',
-    rating: '7.1',
+    description: 'Seis meses após os eventos do primeiro filme, Rachel Keller (Naomi Watts) e seu filho Aidan tentam recomeçar a vida na cidade litorânea de Astoria, Oregon. Mas quando uma nova morte misteriosa envolve uma fita de vídeo, Rachel percebe que Samara está de volta — e mais determinada do que nunca a se manifestar no mundo real. A maldição evolui, e agora não basta apenas copiar a fita para escapar: Samara quer uma mãe... e escolheu Rachel. ',
+    rating: '5.4',
     poster: 'https://i.pinimg.com/736x/61/37/0c/61370c6f605eb1738ea325fe2fdba219.jpg',
-    trailer: 'https://www.youtube.com/watch?v=q0iB65j_S0E',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=L9JMGCtNFkE',
   },
   {
     title: 'O Silêncio dos Inocentes',
     year: '1991',
     genre: 'Thriller',
-    description: 'Uma jovem agente do FBI busca a ajuda de um assassino e psicopata canibal, Hannibal Lecter, para capturar outro serial killer.',
+    description: 'jovem agente do FBI Clarice Starling (Jodie Foster) é designada para entrevistar o brilhante, porém perigoso, Dr. Hannibal Lecter (Anthony Hopkins), um psiquiatra encarcerado por assassinato e canibalismo. Ela precisa da ajuda dele para capturar outro serial killer conhecido como Buffalo Bill, que arranca a pele de suas vítimas. O jogo psicológico entre Clarice e Lecter se torna cada vez mais intenso, revelando traumas, manipulações e segredos sombrios. ',
     rating: '8.6',
     poster: 'https://i.pinimg.com/1200x/54/c5/06/54c506983fa4efb5fc71af49810b8f55.jpg',
-    trailer: 'https://www.youtube.com/watch?v=W6Mm8gBL7pI',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=8Qsq6DrYDxE',
   },
   {
     title: 'Poltergeist',
     year: '1982',
     genre: 'Fantasma',
-    description: 'Uma família se muda para uma casa nova, apenas para descobrir que ela é assombrada por espíritos malignos que se comunicam através da televisão.',
+    description: 'A família Freeling vive tranquilamente em uma casa no subúrbio da Califórnia até que fenômenos estranhos começam a acontecer. A filha mais nova, Carol Anne, começa a se comunicar com vozes vindas da televisão. Logo, forças invisíveis passam a se manifestar, culminando no desaparecimento da menina para uma dimensão espiritual. Desesperados, os pais recorrem a parapsicólogos e médiuns para tentar resgatá-la — enfrentando uma entidade maligna que habita a casa. ',
     rating: '7.3',
     poster: 'https://i.pinimg.com/736x/67/46/1a/67461aafc0b7fcde90ad343cfa0656b9.jpg',
-    trailer: 'https://www.youtube.com/watch?v=F_f0j7x9p3c',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'},
+      { name: 'HBO MAX', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=e4TnjpMwMR8',
   },
   {
     title: 'Longlegs',
     year: '2024',
     genre: 'Psicológico',
-    description: 'A trama acompanha Lee Harker (Maika Monroe), uma jovem agente do FBI convocada para investigar uma série de assassinatos arquivados. Conforme ela mergulha no caso, descobre que os crimes estão ligados a rituais ocultistas e que há uma conexão pessoal perturbadora entre ela e o assassino — interpretado por Nicolas Cage, em uma performance intensa e enigmática',
-    rating: '7.0',
+    description: 'A agente do FBI Lee Harker (Maika Monroe) é designada para investigar uma série de assassinatos brutais que parecem estar ligados por um padrão oculto. À medida que ela mergulha no caso, descobre que o responsável — conhecido como Longlegs (Nicolas Cage) — pode estar usando forças sobrenaturais para cometer os crimes. O que começa como uma investigação policial se transforma em uma jornada sombria e pessoal, revelando conexões perturbadoras entre Harker e o assassino. ',
+    rating: '6.6',
     poster: 'https://image.tmdb.org/t/p/original/jpTxtwM1AXzEwYghzF06zsSF0pc.jpg',
-    trailer: 'https://www.youtube.com/watch?v=FC6rD_K7wB4',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=OG7wOTE8NhE',
   },
   {
     title: 'Carrie, a Estranha',
-    year: '2013',
+    year: '1976',
     genre: 'Sobrenatural',
-    description: 'Uma adolescente tímida e oprimida descobre que tem poderes telecinéticos, que se manifestam de forma violenta após ser humilhada em seu baile de formatura.',
-    rating: '6,0',
+    description: 'Carrie é uma jovem excluída e atormentada na escola e em casa. Ao descobrir seus poderes telecinéticos, ela tenta controlar sua raiva — até que uma brincadeira cruel no baile desencadeia uma vingança sobrenatural. ',
+    rating: '7,4',
     poster: 'https://i.pinimg.com/1200x/02/b3/fe/02b3fed5fa3fe2f1c8d64ca23cfe041a.jpg',
-    trailer: 'https://www.youtube.com/watch?v=aG0K9j3mGjY',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=1TaYCap3nok',
   },
   {
     title: 'Madrugada dos Mortos',
-    year: '1978',
+    year: '2004',
     genre: 'Zumbi',
-    description: 'Um grupo de sobreviventes se esconde em um shopping center para se proteger de uma horda de mortos que subitamente voltaram à vida.',
-    rating: '7.8',
+    description: 'Após um surto inexplicável transformar pessoas em zumbis vorazes, a enfermeira Ana (Sarah Polley) escapa do caos inicial e se junta a outros sobreviventes — incluindo o policial Kenneth (Ving Rhames) — em um shopping center. Lá, eles tentam resistir ao apocalipse, mas à medida que os suprimentos acabam e os mortos se acumulam, o grupo precisa decidir entre ficar ou arriscar tudo para fugir. O filme é conhecido por seus zumbis rápidos, atmosfera de tensão constante e cenas de ação brutais. ',
+    rating: '7.2',
     poster: 'https://i.pinimg.com/1200x/6e/fc/10/6efc10fb89724072dfc2a6da9ddd24b3.jpg',
-    trailer: 'https://www.youtube.com/watch?v=mYm64g6m1t0',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=ci7K5LKgsWM',
   },
   {
     title: 'A Mosca',
