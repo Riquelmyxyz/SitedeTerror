@@ -412,7 +412,7 @@ const movies = [
     genre: 'Sobrenatural',
     description: 'Um conto moderno sobre a maldição do lobisomem, explorando os conflitos internos e externos do protagonista.',
     rating: null,
-    poster: 'URL_DO_POSTER_LOBISOMEM_2024',
+    poster: 'https://m.media-amazon.com/images/M/MV5BZDc0OWYzYzQtNDlkMi00OTE2LWI1ZTUtMDIwZDg2MDY4MWFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -422,7 +422,7 @@ const movies = [
     genre: 'Sobrenatural',
     description: 'Baseado no conto de Stephen King, o filme explora os horrores que uma antiga entidade pode trazer para uma família.',
     rating: null,
-    poster: 'URL_DO_POSTER_O_MACACO_2024',
+    poster: 'https://br.web.img2.acsta.net/img/d2/e5/d2e517612de9e1db2463aeec34dc6d29.jpg',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -432,18 +432,18 @@ const movies = [
     genre: 'Sobrenatural',
     description: 'Uma família se muda para uma casa onde uma presença sinistra começa a se manifestar de formas aterrorizantes.',
     rating: null,
-    poster: 'URL_DO_POSTER_PRESENCA_2024',
+    poster: 'https://br.web.img3.acsta.net/img/6b/ea/6beac990070ef019623145592b64d981.jpg',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
   {
-    title: 'Pecadores',
-    year: '2025',
-    genre: 'Culto',
-    description: 'Um grupo de indivíduos é atraído para um culto misterioso com promessas de salvação, mas encontra um destino sombrio.',
-    rating: null,
-    poster: 'URL_DO_POSTER_PECADORES_2024',
-    trailer: 'URL_DO_TRAILER',
+    title: 'O Exorcista: O Devoto',
+    year: '2023',
+    genre: 'Psicológico',
+    description: 'Após perder sua esposa grávida em um terremoto no Haiti, Victor Fielding (Leslie Odom Jr.) cria sozinho sua filha Angela. Doze anos depois, Angela e sua amiga Katherine desaparecem na floresta e retornam três dias depois — sem memória do que aconteceu. A partir daí, eventos sobrenaturais começam a se intensificar, levando Victor a buscar ajuda de Chris MacNeil (Ellen Burstyn), a única pessoa viva que enfrentou algo semelhante no passado.',
+    rating: '4,8',
+    poster: 'https://cinebreak.com.br/wp-content/uploads/2023/07/o-exorcista-o-devoto-ganha-trailer-com-sequencia-para-2025-veja.jpg',
+    trailer: 'https://www.youtube.com/watch?v=96RCGOaNuCM',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
   {
@@ -452,7 +452,7 @@ const movies = [
     genre: 'Slasher',
     description: 'Um grupo de amigos se vê preso em uma cabana isolada, sendo caçados por um assassino implacável.',
     rating: null,
-    poster: 'URL_DO_POSTER_UNTIL_DAWN_2024',
+    poster: 'https://static.claquete.com.br/fotos/filmes/poster/16295_medio.jpg',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -462,7 +462,7 @@ const movies = [
     genre: 'Sobrenatural',
     description: 'Uma mulher descobre segredos obscuros e sobrenaturais escondidos em um jardim antigo e misterioso.',
     rating: null,
-    poster: 'URL_DO_POSTER_A_MULHER_NO_JARDIM_2024',
+    poster: 'https://br.web.img2.acsta.net/img/18/ca/18ca405e8d949e0cdd4c0b80aaf4db99.jpg',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -472,7 +472,7 @@ const movies = [
     genre: 'Thriller',
     description: 'A mais nova instalação da franquia Premonição, onde um grupo de pessoas escapa da morte, mas a Morte vem atrás deles.',
     rating: null,
-    poster: 'URL_DO_POSTER_PREMONICAO_6_2024',
+    poster: 'https://nouse.com.br/wp-content/uploads/2025/03/Premonicao-6-Lacos-de-Sangue-ganha-novo-trailer-inedito.jpg',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -482,17 +482,17 @@ const movies = [
     genre: 'Apocalíptico',
     description: 'A saga de sobrevivência em um mundo devastado por um vírus mortal continua, com novos desafios e ameaças.',
     rating: null,
-    poster: 'URL_DO_POSTER_EXTERMINIO_EVOLUCAO_2024',
+    poster: 'https://tse1.mm.bing.net/th/id/OIP.BG510tAxW2Inbtw4X4MEkwHaK-?cb=thfvnextucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
   {
-    title: 'M3GAN 2.0',
-    year: '2025',
-    genre: 'Alien',
-    description: 'A boneca assassina M3GAN retorna em uma nova aventura cheia de tecnologia e terror.',
+    title: 'A Babá ',
+    year: '2017',
+    genre: 'Culto',
+    description: 'Cole, um garoto tímido de 12 anos, é apaixonado por sua babá Bee — linda, divertida e aparentemente perfeita. Mas tudo muda quando ele decide espioná-la após ir para a cama e descobre que ela lidera um culto satânico com seus amigos adolescentes. A partir daí, Cole precisa lutar pela própria vida enquanto tenta escapar dos assassinos, usando criatividade, coragem e muita sorte.',
     rating: null,
-    poster: 'URL_DO_POSTER_M3GAN_2_0_2024',
+    poster: 'https://i.ytimg.com/vi/XRujdNZVWUU/maxresdefault.jpg',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -502,7 +502,7 @@ const movies = [
     genre: 'Slasher',
     description: 'Um remake ou continuação da clássica franquia de terror adolescente, com um novo assassino aterrorizando um grupo de jovens.',
     rating: null,
-    poster: 'URL_DO_POSTER_EU_SEI_O_QUE_VOCES_FIZERAM_2024',
+    poster: 'https://api.claquete.com.br/uploads/poster/16065_medio.jpg',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -512,7 +512,7 @@ const movies = [
     genre: 'Culto',
     description: 'Um grupo participa de um ritual misterioso que desencadeia forças sombrias e perigosas.',
     rating: null,
-    poster: 'URL_DO_POSTER_O_RITUAL_2024',
+    poster: 'https://horrorfuel.com/wp-content/uploads/2025/03/the-ritual-2025.jpg',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -522,7 +522,7 @@ const movies = [
     genre: 'Sobrenatural',
     description: 'Uma história de possessão e entidades demoníacas que se intensifica durante um período específico.',
     rating: null,
-    poster: 'URL_DO_POSTER_A_HORA_DO_MAL_2024',
+    poster: 'https://live.staticflickr.com/65535/54485707676_9495b1c07e_o.jpg',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -532,7 +532,7 @@ const movies = [
     genre: 'Slasher',
     description: 'Um grupo de amigos é aterrorizado por um assassino que usa métodos cruéis e ligados a um antigo conto folclórico.',
     rating: null,
-    poster: 'URL_DO_POSTER_OS_ENFORCADOS_2024',
+    poster: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/6x3670ZuV4v7YUome28WSGlSblv.jpg',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -542,7 +542,7 @@ const movies = [
     genre: 'Psicológico',
     description: 'O isolamento e a paranoia levam um grupo de pessoas a confrontar seus medos mais profundos.',
     rating: null,
-    poster: 'URL_DO_POSTER_JUNTOS_2024',
+    poster: 'https://m.media-amazon.com/images/M/MV5BNzA4YjY5ZjEtMWU5NC00MWFmLWFkOGItZDBhMzBjNWMyNzE1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
@@ -552,28 +552,28 @@ const movies = [
     genre: 'Sobrenatural',
     description: 'Uma tentativa desesperada de trazer alguém de volta do além desencadeia consequências aterrorizantes.',
     rating: null,
-    poster: 'URL_DO_POSTER_FACAE LAVOLTAR_2024',
+    poster: 'https://tse1.mm.bing.net/th/id/OIF.PGSgn8yyy91jvrrFkNQmZg?cb=thfvnextucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
   {
-    title: 'Invocação do Mal 4: O Último Ritual',
-    year: '2025',
+    title: 'Invocação do Mal 2',
+    year: '2016',
     genre: 'Possessão',
     description: 'Ed e Lorraine Warren retornam para enfrentar sua mais desafiadora e talvez última investigação paranormal.',
     rating: null,
-    poster: 'URL_DO_POSTER_INVOCACAO_DO_MAL_4_2024',
+    poster: 'https://www.ucicinemas.com.br/Content/Upload/Filmes/Posters/5985/filme_5985.jpg',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
 
   {
-    title: 'Sobrenatural',
-    year: '2010',
-    genre: 'Sobrenatural',
+    title: 'Annabelle 2 - A Criação do Mal',
+    year: '2017',
+    genre: 'Possessão',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://tse1.mm.bing.net/th/id/OIP.vwqPWnEeHIGdu1C57EBh7AHaK_?cb=thfvnextucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
     trailer: 'URL_DO_TRAILER',
     whereToWatch: 'URL_DA_PLATAFORMA'
   },
