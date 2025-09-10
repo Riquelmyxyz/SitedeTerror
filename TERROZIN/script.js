@@ -686,7 +686,7 @@ const movies = [
     genre: 'Zumbi',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://www.kinonews.ru/insimgs/poster/poster47670_2.jpg',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -699,7 +699,7 @@ const movies = [
     genre: 'Demônio',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://images.justwatch.com/poster/174792418/s718/a-morte-do-demonio.jpg',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -712,7 +712,7 @@ const movies = [
     genre: 'Demônio',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://i.ytimg.com/vi/i6SJdrMRkxo/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGH8gOSghMA8=&rs=AOn4CLCCpiOlgS_qKzo1nckrM82Uk0FilQ',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -725,7 +725,7 @@ const movies = [
     genre: 'Vampiro',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://br.web.img3.acsta.net/medias/nmedia/18/93/17/90/20240211.jpg',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -738,7 +738,7 @@ const movies = [
     genre: 'Vampiro',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://i.ytimg.com/vi/6Y2PhP29tyk/maxresdefault.jpg',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -751,7 +751,7 @@ const movies = [
     genre: 'Vampiro',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://tse1.explicit.bing.net/th/id/OIP.ylR25eXxQpPc2tIPquuwEwHaLH?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -764,7 +764,7 @@ const movies = [
     genre: 'Fantasma',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://th.bing.com/th/id/R.c17ae6ecf53fa6a723057245ecd79129?rik=jau6V6RlzDHCBg&riu=http%3a%2f%2fcinematologia.com.br%2fcine%2fwp-content%2fuploads%2f2017%2f07%2fOs-Outros-2001-4.jpg&ehk=v09YUwurx%2bal8hutqN5KuyqfvFzn8HIBsIghGp08jYM%3d&risl=&pid=ImgRaw&r=0',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -777,7 +777,7 @@ const movies = [
     genre: 'Fantasma',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://th.bing.com/th/id/R.0af3a63d0ada170266a307a60dd50567?rik=QG2JavCTolo6JA&riu=http%3a%2f%2fbr.web.img2.acsta.net%2fc_300_300%2fpictures%2f18%2f09%2f19%2f18%2f09%2f2669292.jpg&ehk=72lYv9p%2fDYU4jkonJ50xfvNSmo5oaEH%2fxi5YKu5gp%2b8%3d&risl=&pid=ImgRaw&r=0',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -790,7 +790,7 @@ const movies = [
     genre: 'Fantasma',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://www.cafecomfilme.com.br/media/k2/items/cache/044f5e2581f803ef74e3e67dcc235a32_M.jpg?t=20210628_211418',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -803,7 +803,7 @@ const movies = [
     genre: 'Possessão',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://i.pinimg.com/originals/45/cc/8e/45cc8e518e642f09dd94f09c15094888.jpg',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -816,7 +816,7 @@ const movies = [
     genre: 'Possessão',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://www.cafecomfilme.com.br/media/k2/items/cache/dc9e231f652301f80ea8e901bd9ec18a_XL.jpg?t=20181025_221839',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -829,7 +829,7 @@ const movies = [
     genre: 'Possessão',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://image.tmdb.org/t/p/original/3j0YAhy7rkgK8PMzG9MdncxgDDf.jpg',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -842,7 +842,7 @@ const movies = [
     genre: 'Culto',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5cir5m5vGhVJQdYGsCtJ0Xp9gkbl5QXXpx2MgaATFjurCNAXilGdPHMSBTfTmX6W1DmunTW8VDxD-0jNOoBboTbTe7k3DlzIvxzrNN60J0ZO0bbx0WiEGi9mQKIxy8Vl1C6rH0tdJwYbphQDwWYfJxQHB2XhkPTtDRKVAn6YIaoewple-cCmXS56YS_qp/s450/o-homem-de-palha-filme-poster.jpg',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -855,7 +855,7 @@ const movies = [
     genre: 'Culto',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://th.bing.com/th/id/R.ace4a5dcd333bbc917656fdba3cbb3eb?rik=JZu6LAig0giFaw&pid=ImgRaw&r=0',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -868,7 +868,7 @@ const movies = [
     genre: 'Culto',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://woomagazine.com.br/wp-content/uploads/2017/12/o-sacrificio-do-cervo-sagrado-nicole-kidman.jpg',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -881,7 +881,7 @@ const movies = [
     genre: 'Body Horror',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://i.pinimg.com/originals/02/c9/55/02c9558cd355e6d4e9f0a169d53584c8.jpg',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -894,7 +894,7 @@ const movies = [
     genre: 'Body Horror',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://th.bing.com/th/id/R.dd206dd70a50eab968305f38e61843c0?rik=sASWxV%2fKN7C4FQ&riu=http%3a%2f%2ffocusmicrosites.s3.amazonaws.com%2fassets%2fuploads%2f1481055737_rawos_59_m5.0v3.0.jpg&ehk=G7wqYuMsYMkw4aW4L9xe2AIU8PbY2Jwqai2XIm8CsCI%3d&risl=1&pid=ImgRaw&r=0',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -907,7 +907,7 @@ const movies = [
     genre: 'Apocalíptico',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://tse2.mm.bing.net/th/id/OIP.XFKFMXZ1fKy4fBCBRkT3TAHaKX?cb=ucfimg2ucfimg=1&w=844&h=1181&rs=1&pid=ImgDetMain&o=7&rm=3',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -920,7 +920,7 @@ const movies = [
     genre: 'Apocalíptico',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://br.web.img2.acsta.net/medias/nmedia/18/94/25/76/20314404.jpg',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -933,7 +933,7 @@ const movies = [
     genre: 'Apocalíptico',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://tse1.mm.bing.net/th/id/OIP.aznuVvcNLfXmgt-2gZEsawHaK-?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -941,12 +941,12 @@ const movies = [
     trailer: ''
   },
   {
-    title: 'Alien: O Oitavo Passageiro',
-    year: '1979',
+    title: 'Alien: Romulus',
+    year: '2024',
     genre: 'Alien',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://th.bing.com/th/id/R.1a2d3fb3ba43d2a28865f751f28c9dc2?rik=eNrq5aMVJ76aQQ&riu=http%3a%2f%2fwww.scified.com%2fu%2fsecond-official-alien--romulus-poster-55722.jpg&ehk=UUanXdb4oFU%2bCslKr8hwf9Cuy47ipao5IDGyFo1INgg%3d&risl=&pid=ImgRaw&r=0',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -955,11 +955,11 @@ const movies = [
   },
   {
     title: 'A Coisa',
-    year: '1982',
+    year: '2011',
     genre: 'Alien',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://images.justwatch.com/poster/177736643/s718/the-thing-2011.%7Bformat%7D',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -972,7 +972,7 @@ const movies = [
     genre: 'Alien',
     description: null,
     rating: null,
-    poster: null,
+    poster: 'https://media.fstatic.com/gVnPUs8nfyjfsmcP5tJnaA_lUcI=/290x478/smart/media/movies/covers/2017/11/Sinais-2002-5.jpg',
     platforms: [
       { name: 'HBO Max', logo: '' },
       { name: 'Apple TV', logo: '' }
@@ -1072,5 +1072,6 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
 
