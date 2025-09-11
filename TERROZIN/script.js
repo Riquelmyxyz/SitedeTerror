@@ -408,82 +408,106 @@ const movies = [
     title: 'A Mosca',
     year: '1986',
     genre: 'Body Horror',
-    description: 'Um cientista se transforma em uma criatura horripilante após um de seus experimentos de teletransporte dar errado.',
+    description: 'O cientista excêntrico Seth Brundle (interpretado por Jeff Goldblum) desenvolve uma máquina de teletransporte de matéria. Ao testar o dispositivo em si mesmo, uma mosca entra na câmara sem que ele perceba. O resultado? Uma fusão genética entre homem e inseto, que inicia uma mutação aterrorizante e irreversível. A jornalista Veronica Quaife (Geena Davis) acompanha de perto essa transformação grotesca e emocional.',
     rating: '7.6',
     poster: 'https://i.pinimg.com/736x/48/02/81/48028120c3185a69614ee2fc1c9955ec.jpg',
-    trailer: 'https://www.youtube.com/watch?v=Fj-y55Qk-9g',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Disney', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg' },
+    ],
+    trailer: 'https://www.youtube.com/watch?v=K7SNZpm2k6c',
   },
   {
     title: 'A Morte Do Demônio: A Ascenção',
     year: '2023',
     genre: 'Demônio',
-    description: 'Cinco amigos viajam para uma cabana isolada na floresta, onde acidentalmente libertam demônios que possuíam os mortos.',
-    rating: '6,5',
+    description: 'O filme se passa em Los Angeles, onde Beth (Lily Sullivan) visita sua irmã Ellie (Alyssa Sutherland), mãe solo de três filhos, que vive em um prédio decadente. Após um terremoto, o filho Danny encontra um livro antigo e discos amaldiçoados em um cofre subterrâneo. Ao reproduzir os áudios, uma entidade demoníaca é libertada, possuindo Ellie e transformando o apartamento em um pesadelo sangrento. Beth precisa lutar para proteger os sobrinhos e sobreviver à noite. ',
+    rating: '6.5',
     poster: 'https://i.pinimg.com/1200x/e2/77/23/e27723f80ff94c19c112bef9a9ea5eb7.jpg',
-    trailer: 'https://www.youtube.com/watch?v=coj331q3L2A',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'},
+      { name: 'HBO MAX', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=5n9v35xgRpw',
   },
   {
     title: 'Extermínio',
     year: '2002',
     genre: 'Apocalíptico',
-    description: 'Um homem acorda de um coma e descobre que a Grã-Bretanha foi devastada por um vírus que transforma as pessoas em assassinos violentos.',
-    rating: '7.6',
+    description: 'Após ativistas libertarem macacos infectados de um laboratório, um vírus altamente contagioso se espalha pelo Reino Unido, transformando pessoas em criaturas violentas e irracionais. 28 dias depois, Jim (Cillian Murphy) acorda de um coma em um hospital abandonado e encontra Londres deserta e devastada. Ao lado de outros sobreviventes, ele tenta entender o que aconteceu e encontrar abrigo, enfrentando não apenas os infectados, mas também os horrores humanos que surgem em tempos de colapso. ',
+    rating: '7.5',
     poster: 'https://i.pinimg.com/736x/4f/59/6d/4f596d2f9f5fef4b2b57b51f04e836aa.jpg',
-    trailer: 'https://www.youtube.com/watch?v=l_xH3W2g8vQ',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'},
+      { name: 'HBO MAX', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=at4JIc_vyUY',
   },
  
   {
     title: 'Abismo do Medo',
     year: '2005',
     genre: 'Thriller',
-    description: 'Seis amigas exploram um sistema de cavernas inexplorado, mas ficam presas e descobrem que não estão sozinhas lá embaixo.',
+    description: 'Um ano após um acidente traumático, seis amigas se reúnem para explorar uma caverna remota nos Apalaches. Sem saber, foram levadas por Juno a um sistema de cavernas não mapeado, o que rapidamente se transforma em um pesadelo. Após um desabamento, elas ficam presas e descobrem que não estão sozinhas: criaturas humanoides e carnívoras habitam a escuridão. O grupo precisa lutar pela sobrevivência enquanto enfrenta medos primordiais, conflitos internos e horrores sobrenaturais. ',
     rating: '7.2',
     poster: 'https://i.pinimg.com/736x/a8/5e/ea/a85eea4b74be033625155cc65eab9c10.jpg',
-    trailer: 'https://www.youtube.com/watch?v=0k7b3N26_pU',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+    ],
+    trailer: 'https://www.youtube.com/watch?v=sqQNAe8U5VU',
   },
   {
     title: 'Nosferatu',
     year: '2025',
     genre: 'Vampiro',
-    description: 'Uma nova adaptação do clássico conto de vampiro, com uma abordagem sombria e gótica.',
-    rating: null,
+    description: 'Dirigido por Robert Eggers (de A Bruxa e O Farol), esta versão de Nosferatu é um conto gótico sobre obsessão, morte e desejo sobrenatural. A história se passa na Alemanha do século XIX e acompanha o misterioso Conde Orlok (Bill Skarsgård), um vampiro que se apaixona por Ellen Hutter (Lily-Rose Depp), esposa de um corretor de imóveis. Conforme Orlok se aproxima, uma série de eventos sombrios e aterrorizantes se desenrola, envolvendo sonhos perturbadores, doenças inexplicáveis e uma atmosfera de puro horror. ',
+    rating: '7.2',
     poster: 'https://tse3.mm.bing.net/th/id/OIP.hHRHKSqaFMwfiQ-K4ndvRQHaK-?cb=thfvnextucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=moIrYMjS0nI',
   },
   {
     title: 'Lobisomem',
     year: '2025',
     genre: 'Sobrenatural',
-    description: 'Um conto moderno sobre a maldição do lobisomem, explorando os conflitos internos e externos do protagonista.',
-    rating: null,
+    description: 'Dirigido por Leigh Whannell (O Homem Invisível), o filme acompanha Blake Lovell (Christopher Abbott), um homem que tenta proteger sua esposa Charlotte (Julia Garner) e sua filha Ginger após se mudarem para uma casa isolada nas montanhas. Quando uma criatura misteriosa os ataca, Blake descobre que está infectado por uma maldição ancestral, e começa a se transformar em um lobisomem. A tensão cresce à medida que ele luta contra sua natureza monstruosa e tenta salvar sua família de si mesmo. ',
+    rating: '6.8',
     poster: 'https://m.media-amazon.com/images/M/MV5BZDc0OWYzYzQtNDlkMi00OTE2LWI1ZTUtMDIwZDg2MDY4MWFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=4e414vW9gFs',
   },
   {
     title: 'O Macaco',
     year: '2025',
     genre: 'Sobrenatural',
-    description: 'Baseado no conto de Stephen King, o filme explora os horrores que uma antiga entidade pode trazer para uma família.',
-    rating: null,
+    description: 'Baseado no conto The Monkey de Stephen King, o filme acompanha os gêmeos Hal e Bill (interpretados por Theo James), que descobrem um macaco de brinquedo amaldiçoado no sótão do pai. Toda vez que o brinquedo é ativado, alguém morre de forma violenta. Mesmo tentando destruí-lo, o objeto reaparece, trazendo tragédias e desenterrando traumas familiares. A história se desenrola ao longo de décadas, com os irmãos tentando escapar da maldição que os persegue. ',
+    rating: '5.9',
     poster: 'https://br.web.img2.acsta.net/img/d2/e5/d2e517612de9e1db2463aeec34dc6d29.jpg',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=EHs_4zZFfYU',
   },
   {
     title: 'Presença',
     year: '2025',
     genre: 'Sobrenatural',
-    description: 'Uma família se muda para uma casa onde uma presença sinistra começa a se manifestar de formas aterrorizantes.',
-    rating: null,
+    description: '"Presença" é um suspense sobrenatural contado inteiramente do ponto de vista de um fantasma. A trama acompanha Rebekah (Lucy Liu), seu marido Chris (Chris Sullivan) e seus filhos Chloe (Callina Liang) e Tyler, que se mudam para uma casa isolada após uma perda traumática. O que parece ser um recomeço logo se transforma em um pesadelo silencioso, quando uma entidade invisível começa a observar e interferir na vida da família — especialmente em Chloe, que ainda lida com o luto pela melhor amiga. A narrativa mergulha em temas como luto, obsessão, conflitos familiares e presença sobrenatural, com uma abordagem visual única e inquietante. ',
+    rating: '6.1',
     poster: 'https://br.web.img3.acsta.net/img/6b/ea/6beac990070ef019623145592b64d981.jpg',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=QbXOCYU1dQc',
   },
   {
     title: 'O Exorcista: O Devoto',
@@ -492,38 +516,49 @@ const movies = [
     description: 'Após perder sua esposa grávida em um terremoto no Haiti, Victor Fielding (Leslie Odom Jr.) cria sozinho sua filha Angela. Doze anos depois, Angela e sua amiga Katherine desaparecem na floresta e retornam três dias depois — sem memória do que aconteceu. A partir daí, eventos sobrenaturais começam a se intensificar, levando Victor a buscar ajuda de Chris MacNeil (Ellen Burstyn), a única pessoa viva que enfrentou algo semelhante no passado.',
     rating: '4,8',
     poster: 'https://cinebreak.com.br/wp-content/uploads/2023/07/o-exorcista-o-devoto-ganha-trailer-com-sequencia-para-2025-veja.jpg',
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+    ],
     trailer: 'https://www.youtube.com/watch?v=96RCGOaNuCM',
-    whereToWatch: 'URL_DA_PLATAFORMA'
   },
   {
     title: 'Until Dawn: Noite de Terror',
     year: '2025',
     genre: 'Slasher',
-    description: 'Um grupo de amigos se vê preso em uma cabana isolada, sendo caçados por um assassino implacável.',
-    rating: null,
+    description: 'Inspirado no jogo Until Dawn (2015), o filme acompanha um grupo de adolescentes que decide passar um fim de semana em uma cabana isolada em Blackwood Mountain, no Canadá — um ano após o desaparecimento misterioso de duas irmãs gêmeas do grupo. O que começa como uma reunião descontraída se transforma em um pesadelo sangrento, quando um serial killer começa a persegui-los. A narrativa mistura terror slasher, decisões morais e mistério sobrenatural, recriando a tensão interativa do jogo em uma experiência cinematográfica. ',
+    rating: '5.7',
     poster: 'https://static.claquete.com.br/fotos/filmes/poster/16295_medio.jpg',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'},
+      { name: 'HBO MAX', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=W--kUNMg1-E',
   },
   {
     title: 'A Mulher no Jardim',
     year: '2025',
     genre: 'Sobrenatural',
-    description: 'Uma mulher descobre segredos obscuros e sobrenaturais escondidos em um jardim antigo e misterioso.',
-    rating: null,
+    description: 'Após perder o marido em um acidente de carro, Ramona (Danielle Deadwyler) vive isolada com seus dois filhos em uma casa inacabada. Com a perna ferida e emocionalmente devastada, ela começa a notar a presença de uma mulher vestida de preto, sentada no jardim — imóvel, silenciosa, mas cada vez mais ameaçadora. Essa figura passa a emitir mensagens enigmáticas e assustadoras, desestabilizando a rotina da família. O filme mergulha em temas como luto, culpa, alucinação e forças sobrenaturais, com uma atmosfera tensa e intimista. ',
+    rating: '5.1',
     poster: 'https://br.web.img2.acsta.net/img/18/ca/18ca405e8d949e0cdd4c0b80aaf4db99.jpg',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=ZMRTDkW0q6w',
   },
   {
     title: 'Premonição 6: Laços de Sangue',
     year: '2025',
     genre: 'Thriller',
-    description: 'A mais nova instalação da franquia Premonição, onde um grupo de pessoas escapa da morte, mas a Morte vem atrás deles.',
-    rating: null,
+    description: 'A trama acompanha Stefanie (Kaitlyn Santa Juana), uma universitária atormentada por pesadelos recorrentes em que vê seus familiares morrendo de forma brutal. Ao retornar à cidade natal, ela busca respostas com sua avó Iris (Gabrielle Rose/Brec Bassinger), que décadas atrás teve uma premonição e salvou dezenas de pessoas de uma tragédia nos anos 60. Mas ao interferir no plano da Morte, Iris desencadeou uma maldição que agora ameaça toda a linhagem familiar. ',
+    rating: '6.8',
     poster: 'https://nouse.com.br/wp-content/uploads/2025/03/Premonicao-6-Lacos-de-Sangue-ganha-novo-trailer-inedito.jpg',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
+    ],
+    trailer: 'https://www.youtube.com/watch?v=TTwbsctteuw',
   },
   {
     title: 'Extermínio: A Evolução',
@@ -1072,6 +1107,7 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
 
 
