@@ -945,72 +945,67 @@ const movies = [
     ],
     trailer: 'https://www.youtube.com/watch?v=2Cjl6HHDNi4'
   },
-    trailer: ''
-  },
-  {
+     {
     title: 'Filhos da Esperança',
     year: '2006',
     genre: 'Apocalíptico',
-    description: null,
-    rating: null,
+    description: 'Em um futuro distópico, o ano é 2027 e a humanidade enfrenta a extinção: as mulheres tornaram-se inférteis e o último bebê nasceu há 18 anos. O mundo mergulha no caos, com governos autoritários e refugiados sendo perseguidos. Theo Faron (Clive Owen), um ex-ativista desiludido, é recrutado por sua ex-esposa Julian (Julianne Moore) para proteger uma jovem misteriosamente grávida — a única esperança de sobrevivência da espécie humana.',
+    rating: '7,9',
     poster: 'https://br.web.img2.acsta.net/medias/nmedia/18/94/25/76/20314404.jpg',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Amazon Prime', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=9jisy5XHAC0'
   },
   {
     title: 'Bird Box',
     year: '2018',
     genre: 'Apocalíptico',
-    description: null,
-    rating: null,
+    description: 'Uma força misteriosa dizima a população mundial: ao vê-la, as pessoas enlouquecem e cometem suicídio. Para sobreviver, Malorie (Sandra Bullock) e seus dois filhos precisam atravessar um rio vendados em busca de um refúgio seguro. O filme alterna entre o presente e flashbacks, revelando como o mundo chegou ao colapso e como Malorie se tornou uma sobrevivente implacável.',
+    rating: '6,6',
     poster: 'https://tse1.mm.bing.net/th/id/OIP.aznuVvcNLfXmgt-2gZEsawHaK-?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Netflix', logo: 'https://i.pinimg.com/1200x/b6/3c/86/b63c861466a49f4a296806069be7f097.jpg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=JeGdtrLQoiY'
   },
   {
     title: 'Alien: Romulus',
     year: '2024',
     genre: 'Alien',
-    description: null,
-    rating: null,
+    description: 'Dirigido por Fede Álvarez e produzido por Ridley Scott, Alien: Romulus se passa entre os eventos de Alien, o 8º Passageiro (1979) e Aliens, O Resgate (1986). A trama acompanha um grupo de jovens colonizadores espaciais que explora uma estação abandonada em busca de recursos para escapar de seu planeta condenado. No entanto, eles acabam despertando a criatura mais letal do universo: o Xenomorfo.',
+    rating: '7,1',
     poster: 'https://th.bing.com/th/id/R.1a2d3fb3ba43d2a28865f751f28c9dc2?rik=eNrq5aMVJ76aQQ&riu=http%3a%2f%2fwww.scified.com%2fu%2fsecond-official-alien--romulus-poster-55722.jpg&ehk=UUanXdb4oFU%2bCslKr8hwf9Cuy47ipao5IDGyFo1INgg%3d&risl=&pid=ImgRaw&r=0',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Disney+', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=IPMxNH2sz7E'
   },
   {
     title: 'A Coisa',
     year: '2011',
     genre: 'Alien',
-    description: null,
-    rating: null,
+    description: 'A paleontóloga Kate Lloyd (Mary Elizabeth Winstead) é convocada para uma expedição na Antártida, onde uma equipe norueguesa descobriu uma nave alienígena enterrada no gelo. Dentro dela, há uma criatura aparentemente morta — mas que logo desperta e revela a capacidade de imitar perfeitamente qualquer ser vivo. O grupo entra em uma corrida desesperada para identificar quem ainda é humano e impedir que o alienígena escape para o mundo',
+    rating: '6,2',
     poster: 'https://images.justwatch.com/poster/177736643/s718/the-thing-2011.%7Bformat%7D',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Amazon Prime', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=The2FvGVmkI'
   },
   {
     title: 'Sinais',
     year: '2002',
     genre: 'Alien',
-    description: null,
-    rating: null,
+    description: 'Graham Hess (Mel Gibson), um ex-pastor que perdeu a fé após a morte da esposa, vive com seus dois filhos e o irmão Merrill (Joaquin Phoenix) em uma fazenda na Pensilvânia. Quando misteriosos círculos aparecem nas plantações, a família se vê no centro de uma possível invasão alienígena. O filme explora temas como fé, luto, redenção e sobrevivência, com uma narrativa tensa e emocional.',
+    rating: '6,7',
     poster: 'https://media.fstatic.com/gVnPUs8nfyjfsmcP5tJnaA_lUcI=/290x478/smart/media/movies/covers/2017/11/Sinais-2002-5.jpg',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Disney+', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=pstPzJjStOE'
   }
 ];
 
@@ -1105,6 +1100,7 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
 
 
