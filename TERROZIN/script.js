@@ -563,52 +563,65 @@ const movies = [
   {
     title: 'Extermínio: A Evolução',
     year: '2025',
-    genre: 'Apocalíptico',
-    description: 'A saga de sobrevivência em um mundo devastado por um vírus mortal continua, com novos desafios e ameaças.',
+    genre: 'Terror, Suspense',
+    description: '28 Years Later se passa três décadas após o surto do vírus da raiva que transformou grande parte da humanidade em criaturas violentas. A trama acompanha um grupo de sobreviventes que vive isolado em uma ilha protegida por um istmo fortemente vigiado. Quando um deles parte em missão ao continente, descobre mutações assustadoras — não só nos infectados, mas também nos humanos que sobreviveram.',
     rating: null,
     poster: 'https://tse1.mm.bing.net/th/id/OIP.BG510tAxW2Inbtw4X4MEkwHaK-?cb=thfvnextucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://youtu.be/mcvLKldPM08',
   },
   {
-    title: 'A Babá ',
+    title: 'A Babá',
     year: '2017',
     genre: 'Culto',
     description: 'Cole, um garoto tímido de 12 anos, é apaixonado por sua babá Bee — linda, divertida e aparentemente perfeita. Mas tudo muda quando ele decide espioná-la após ir para a cama e descobre que ela lidera um culto satânico com seus amigos adolescentes. A partir daí, Cole precisa lutar pela própria vida enquanto tenta escapar dos assassinos, usando criatividade, coragem e muita sorte.',
     rating: null,
     poster: 'https://i.ytimg.com/vi/XRujdNZVWUU/maxresdefault.jpg',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Netflix' , logo: 'https://i.pinimg.com/1200x/b6/3c/86/b63c861466a49f4a296806069be7f097.jpg'},
+    ],
+    trailer: 'https://youtu.be/LhgfYpj_4_Q',
   },
   {
     title: 'Eu Sei o Que Vocês Fizeram no Verão Passado',
     year: '2025',
-    genre: 'Slasher',
-    description: 'Um remake ou continuação da clássica franquia de terror adolescente, com um novo assassino aterrorizando um grupo de jovens.',
+    genre: ' Terror, Suspense',
+    description: 'Cinco amigos causam um acidente de carro fatal e encobrem seu envolvimento mantendo segredo em vez de enfrentar as consequências. Um ano depois, eles se veem perseguidos por um assassino misterioso que sabe o que eles fizeram no verão passado.',
     rating: null,
     poster: 'https://api.claquete.com.br/uploads/poster/16065_medio.jpg',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+    ],
+    trailer: 'https://youtu.be/RTIhJksrx34',
   },
   {
     title: 'O Ritual',
     year: '2025',
     genre: 'Culto',
-    description: 'Um grupo participa de um ritual misterioso que desencadeia forças sombrias e perigosas.',
+    description: 'Dois padres, um questionando sua fé e outro lidando com um passado problemático, devem deixar suas diferenças de lado para realizar um exorcismo difícil e perigoso em uma mulher possuída.',
     rating: null,
     poster: 'https://horrorfuel.com/wp-content/uploads/2025/03/the-ritual-2025.jpg',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+    ],
+    trailer: 'https://youtu.be/Y8zUTpO3JAo',
   },
   {
     title: 'A Hora do Mal',
     year: '2025',
     genre: 'Sobrenatural',
-    description: 'Uma história de possessão e entidades demoníacas que se intensifica durante um período específico.',
+    description: 'Todas as crianças da mesma sala de aula, exceto uma, desaparecem misteriosamente na mesma noite e exatamente no mesmo horário. A comunidade fica se perguntando quem ou o que está por trás do desaparecimento.',
     rating: null,
     poster: 'https://live.staticflickr.com/65535/54485707676_9495b1c07e_o.jpg',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: 'https://youtu.be/Sx_iYTfehN0',
+
   },
   {
     title: 'Os Enforcados',
@@ -617,8 +630,11 @@ const movies = [
     description: 'Um grupo de amigos é aterrorizado por um assassino que usa métodos cruéis e ligados a um antigo conto folclórico.',
     rating: null,
     poster: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/6x3670ZuV4v7YUome28WSGlSblv.jpg',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: '',
   },
   {
     title: 'Juntos',
@@ -627,8 +643,11 @@ const movies = [
     description: 'O isolamento e a paranoia levam um grupo de pessoas a confrontar seus medos mais profundos.',
     rating: null,
     poster: 'https://m.media-amazon.com/images/M/MV5BNzA4YjY5ZjEtMWU5NC00MWFmLWFkOGItZDBhMzBjNWMyNzE1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+    ],
+    trailer: '',
   },
   {
     title: 'Faça Ela Voltar',
@@ -637,8 +656,7 @@ const movies = [
     description: 'Uma tentativa desesperada de trazer alguém de volta do além desencadeia consequências aterrorizantes.',
     rating: null,
     poster: 'https://tse1.mm.bing.net/th/id/OIF.PGSgn8yyy91jvrrFkNQmZg?cb=thfvnextucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    trailer: '',
   },
   {
     title: 'Invocação do Mal 2',
@@ -647,8 +665,7 @@ const movies = [
     description: 'Ed e Lorraine Warren retornam para enfrentar sua mais desafiadora e talvez última investigação paranormal.',
     rating: null,
     poster: 'https://www.ucicinemas.com.br/Content/Upload/Filmes/Posters/5985/filme_5985.jpg',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    trailer: '',
   },
 
   {
@@ -658,8 +675,7 @@ const movies = [
     description: null,
     rating: null,
     poster: 'https://tse1.mm.bing.net/th/id/OIP.vwqPWnEeHIGdu1C57EBh7AHaK_?cb=thfvnextucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
-    trailer: 'URL_DO_TRAILER',
-    whereToWatch: 'URL_DA_PLATAFORMA'
+    trailer: '',
   },
   
   {
@@ -1100,6 +1116,7 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
 
 
