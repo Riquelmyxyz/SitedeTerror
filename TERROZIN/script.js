@@ -784,92 +784,87 @@ const movies = [
     title: 'Entrevista com o Vampiro',
     year: '1994',
     genre: 'Vampiro',
-    description: null,
-    rating: null,
+    description: 'Em São Francisco, nos anos 1990, um jornalista entrevista Louis de Pointe du Lac (Brad Pitt), que afirma ser um vampiro. Através de flashbacks, Louis narra sua transformação pelas mãos de Lestat de Lioncourt (Tom Cruise), após perder a esposa. A história mergulha em temas como imortalidade, solidão e moralidade, acompanhando os dois vampiros por mais de dois séculos.',
+    rating: '7,5',
     poster: 'https://tse1.explicit.bing.net/th/id/OIP.ylR25eXxQpPc2tIPquuwEwHaLH?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Amazon Prime', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=NUrgBxBsaas'
   },
   {
     title: 'Os Outros',
     year: '2001',
     genre: 'Fantasma',
-    description: null,
-    rating: null,
+    description: 'Durante a Segunda Guerra Mundial, Grace (Nicole Kidman) vive com seus dois filhos em uma mansão isolada na ilha de Jersey. As crianças sofrem de uma doença rara que os impede de serem expostos à luz solar, obrigando a família a viver em constante escuridão. Quando novos empregados chegam à casa, eventos estranhos começam a acontecer, desafiando as rígidas regras da casa e revelando segredos perturbadores.',
+    rating: '7,6',
     poster: 'https://th.bing.com/th/id/R.c17ae6ecf53fa6a723057245ecd79129?rik=jau6V6RlzDHCBg&riu=http%3a%2f%2fcinematologia.com.br%2fcine%2fwp-content%2fuploads%2f2017%2f07%2fOs-Outros-2001-4.jpg&ehk=v09YUwurx%2bal8hutqN5KuyqfvFzn8HIBsIghGp08jYM%3d&risl=&pid=ImgRaw&r=0',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Amazon Prime', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=iZmV5gOwHRI'
   },
   {
     title: 'A Maldição da Residência Hill',
     year: '2018',
     genre: 'Fantasma',
-    description: null,
-    rating: null,
+    description: 'A série acompanha os irmãos Crain — Steven, Shirley, Theo, Luke e Nell — que cresceram na misteriosa Residência Hill, uma mansão assombrada onde eventos sobrenaturais marcaram suas vidas para sempre. Anos depois, já adultos e emocionalmente devastados, eles são forçados a confrontar os traumas do passado após uma tragédia familiar. Alternando entre presente e passado, a narrativa revela lentamente os segredos sombrios da casa e das próprias memórias dos personagens.',
+    rating: '8,5',
     poster: 'https://th.bing.com/th/id/R.0af3a63d0ada170266a307a60dd50567?rik=QG2JavCTolo6JA&riu=http%3a%2f%2fbr.web.img2.acsta.net%2fc_300_300%2fpictures%2f18%2f09%2f19%2f18%2f09%2f2669292.jpg&ehk=72lYv9p%2fDYU4jkonJ50xfvNSmo5oaEH%2fxi5YKu5gp%2b8%3d&risl=&pid=ImgRaw&r=0',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Netflix', logo: 'https://i.pinimg.com/1200x/b6/3c/86/b63c861466a49f4a296806069be7f097.jpg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=OJCbEude3_E&t=1s'
   },
   {
     title: 'O Orfanato',
     year: '2007',
     genre: 'Fantasma',
-    description: null,
-    rating: null,
+    description: 'Laura (Belén Rueda) retorna ao orfanato onde cresceu, agora abandonado, com o plano de transformá-lo em um lar para crianças com deficiência. Ela se muda para o local com seu marido Carlos e o filho Simón. Quando Simón começa a interagir com "amigos imaginários" e desaparece misteriosamente, Laura mergulha em uma busca desesperada que revela segredos sombrios do passado da casa.',
+    rating: '7,4',
     poster: 'https://www.cafecomfilme.com.br/media/k2/items/cache/044f5e2581f803ef74e3e67dcc235a32_M.jpg?t=20210628_211418',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Amazon Prime', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=SG9fCQvo_5k'
   },
   {
     title: 'Possessão',
     year: '2012',
     genre: 'Possessão',
-    description: null,
-    rating: null,
+    description: 'Clyde (Jeffrey Dean Morgan) e Stephanie (Kyra Sedgwick) são um casal separado que tenta manter uma boa relação por causa das filhas. Durante uma visita a um brechó, a filha mais nova, Em (Natasha Calis), encontra uma misteriosa caixa de madeira e insiste em levá-la para casa. O que ninguém sabe é que o objeto abriga um espírito maligno da mitologia judaica — um dybbuk — que começa a influenciar o comportamento da menina. A família entra em uma corrida contra o tempo para salvar Em, recorrendo a um exorcismo nada convencional.',
+    rating: '5,9',
     poster: 'https://i.pinimg.com/originals/45/cc/8e/45cc8e518e642f09dd94f09c15094888.jpg',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Amazon Prime', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=lEV1OsjETc8'
   },
   {
     title: 'O Ritual',
     year: '2011',
     genre: 'Possessão',
-    description: null,
-    rating: null,
+    description: 'Michael Kovak é um seminarista cético que decide abandonar sua vocação religiosa. Antes disso, é enviado ao Vaticano para estudar rituais de exorcismo. Lá, ele conhece o enigmático Padre Lucas (Anthony Hopkins), um exorcista veterano que o confronta com casos perturbadores e inexplicáveis. À medida que Michael se envolve com os mistérios da possessão demoníaca, sua fé é colocada à prova.',
+    rating: '6,0',
     poster: 'https://www.cafecomfilme.com.br/media/k2/items/cache/dc9e231f652301f80ea8e901bd9ec18a_XL.jpg?t=20181025_221839',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'HBO Max', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg' },
+      { name: 'Amazon Prime', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=IER3g4pBpHA'
   },
   {
     title: 'Verónica',
     year: '2017',
     genre: 'Possessão',
-    description: null,
-    rating: null,
+    description: 'Ambientado em Madri, nos anos 1990, o filme acompanha Verónica, uma adolescente de 15 anos que cuida dos três irmãos enquanto a mãe trabalha em turnos exaustivos. Durante um eclipse solar, ela e duas amigas realizam uma sessão com uma tábua ouija na escola para tentar se comunicar com o pai falecido. A partir daí, eventos sobrenaturais começam a atormentá-la, colocando em risco sua sanidade e a segurança da família. O filme é inspirado em um caso real registrado pela polícia espanhola — o único em que autoridades afirmaram ter presenciado fenômenos paranormais',
+    rating: '6,2',
     poster: 'https://image.tmdb.org/t/p/original/3j0YAhy7rkgK8PMzG9MdncxgDDf.jpg',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Netflix', logo: 'https://i.pinimg.com/1200x/b6/3c/86/b63c861466a49f4a296806069be7f097.jpg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=s-PdfZ9a6oI'
   },
   {
     title: 'O Homem de Palha',
@@ -1107,6 +1102,7 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
 
 
