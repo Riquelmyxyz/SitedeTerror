@@ -870,78 +870,81 @@ const movies = [
     title: 'O Homem de Palha',
     year: '1973',
     genre: 'Culto',
-    description: null,
-    rating: null,
+    description: "O sargento Neil Howie (Edward Woodward), um cristão devoto, é enviado a uma ilha escocesa isolada chamada Summerisle para investigar o desaparecimento de uma jovem. Ao chegar, ele encontra uma comunidade que abandonou o cristianismo e pratica rituais pagãos celtas, liderados pelo enigmático Lord Summerisle (Christopher Lee). Conforme se aprofunda na investigação, Howie percebe que está envolvido em algo muito mais sombrio e ritualístico do que imaginava. ",
+    rating: '7.5',
     poster: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5cir5m5vGhVJQdYGsCtJ0Xp9gkbl5QXXpx2MgaATFjurCNAXilGdPHMSBTfTmX6W1DmunTW8VDxD-0jNOoBboTbTe7k3DlzIvxzrNN60J0ZO0bbx0WiEGi9mQKIxy8Vl1C6rH0tdJwYbphQDwWYfJxQHB2XhkPTtDRKVAn6YIaoewple-cCmXS56YS_qp/s450/o-homem-de-palha-filme-poster.jpg',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Prime video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=MXq-NuS24fg'
   },
   {
     title: 'Midsommar',
     year: '2019',
     genre: 'Culto',
-    description: null,
-    rating: null,
+    description: "Após uma tragédia familiar devastadora, Dani (Florence Pugh) embarca com seu namorado Christian (Jack Reynor) e um grupo de amigos para um remoto vilarejo sueco chamado Hårga, onde acontece um festival de solstício de verão que ocorre a cada 90 anos. O que começa como uma viagem cultural se transforma em um pesadelo ritualístico, com práticas pagãs, sacrifícios e alucinações. O filme explora temas como luto, dependência emocional, manipulação e renascimento, tudo sob a luz do dia — o que torna o horror ainda mais desconcertante. ",
+    rating: '7.1',
     poster: 'https://th.bing.com/th/id/R.ace4a5dcd333bbc917656fdba3cbb3eb?rik=JZu6LAig0giFaw&pid=ImgRaw&r=0',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Prime video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=1Vnghdsjmd0'
   },
   {
     title: 'O Sacrifício do Cervo Sagrado',
     year: '2017',
     genre: 'Culto',
-    description: null,
-    rating: null,
+    description: "Steven Murphy (Colin Farrell) é um cardiologista renomado que vive com sua esposa Anna (Nicole Kidman) e seus dois filhos. Ele mantém uma relação estranha com Martin (Barry Keoghan), um adolescente cujo pai morreu durante uma cirurgia realizada por Steven. Quando Martin se sente rejeitado, ele revela um plano sombrio: a família de Steven será punida, a menos que ele faça um sacrifício impensável. O filme mergulha em temas como culpa, justiça divina, moralidade e punição, com uma narrativa fria e inquietante. ",
+    rating: '7.0',
     poster: 'https://woomagazine.com.br/wp-content/uploads/2017/12/o-sacrificio-do-cervo-sagrado-nicole-kidman.jpg',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Prime video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=LAjbBOYGokY'
   },
   {
     title: 'Creepshow',
     year: '1982',
     genre: 'Body Horror',
-    description: null,
-    rating: null,
+    description: "Inspirado nos quadrinhos de terror da EC Comics dos anos 1950, Creepshow é uma antologia dirigida por George A. Romero e escrita por Stephen King, que também atua em um dos segmentos. O filme apresenta cinco histórias macabras, todas interligadas por um garoto que lê uma revista de terror proibida. ",
+    rating: '6.8',
     poster: 'https://i.pinimg.com/originals/02/c9/55/02c9558cd355e6d4e9f0a169d53584c8.jpg',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Prime video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=owdnnaNs2RI'
   },
   {
     title: 'Raw',
     year: '2016',
     genre: 'Body Horror',
-    description: null,
-    rating: null,
+    description: "Justine (Garance Marillier) é uma jovem tímida e vegetariana que ingressa na faculdade de veterinária, onde sua irmã mais velha também estuda. Durante os trotes universitários, ela é forçada a comer carne crua pela primeira vez — e esse momento desperta nela impulsos canibais incontroláveis. À medida que sua fome cresce, Justine mergulha em uma jornada de descoberta corporal, desejo, violência e identidade, transformando o canibalismo em uma metáfora para o amadurecimento e a libertação sexual. Dirigido por Julia Ducournau, o filme mistura terror corporal, drama psicológico e crítica social, com uma estética intensa e desconfortante. ",
+    rating: '6.9',
     poster: 'https://th.bing.com/th/id/R.dd206dd70a50eab968305f38e61843c0?rik=sASWxV%2fKN7C4FQ&riu=http%3a%2f%2ffocusmicrosites.s3.amazonaws.com%2fassets%2fuploads%2f1481055737_rawos_59_m5.0v3.0.jpg&ehk=G7wqYuMsYMkw4aW4L9xe2AIU8PbY2Jwqai2XIm8CsCI%3d&risl=1&pid=ImgRaw&r=0',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Prime video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' },
+      { name: 'Netflix', logo: 'https://i.pinimg.com/1200x/b6/3c/86/b63c861466a49f4a296806069be7f097.jpg' }
+
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=gFlXVX2af_Y'
   },
   {
     title: 'A Estrada',
     year: '2009',
     genre: 'Apocalíptico',
-    description: null,
-    rating: null,
+    description: "Após um cataclismo misterioso que destruiu o mundo como o conhecemos, um pai (Viggo Mortensen) e seu filho (Kodi Smit-McPhee) percorrem uma estrada desolada rumo à costa, em busca de abrigo e esperança. Sem vegetação, sem animais, sem civilização — apenas cinzas, fome e o medo constante de canibais e saqueadores. A jornada é marcada por silêncio, desespero e amor incondicional, enquanto o pai tenta proteger o filho em meio ao colapso da humanidade. O filme é uma meditação sobre sobrevivência, moralidade e vínculo familiar, com uma atmosfera fria e melancólica. ",
+    rating: '7.2',
     poster: 'https://tse2.mm.bing.net/th/id/OIP.XFKFMXZ1fKy4fBCBRkT3TAHaKX?cb=ucfimg2ucfimg=1&w=844&h=1181&rs=1&pid=ImgDetMain&o=7&rm=3',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'HBO Max', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg' },
+      { name: 'Prime video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
+    trailer: 'https://www.youtube.com/watch?v=2Cjl6HHDNi4'
+  },
     trailer: ''
   },
   {
@@ -1102,6 +1105,7 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
 
 
