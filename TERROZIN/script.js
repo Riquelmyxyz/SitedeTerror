@@ -258,7 +258,7 @@ const movies = [
       { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
       { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
     ],
-    trailer: 'https://www.youtube.com/watch?v=swzTZ2mQypM',
+    trailer: 'https://www.youtube.com/watch?v=Xlut875doho',
   },
   {
     title: 'Sorria',
@@ -298,7 +298,7 @@ const movies = [
       { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
       
     ],
-    trailer: 'https://www.youtube.com/watch?v=16IpwmLGHkU',
+    trailer: 'https://www.bing.com/videos/riverview/relatedvideo?q=a+hora+do+pesadelo+1984+trailer&&mid=D613F49A863D14646D9ED613F49A863D14646D9E&FORM=VAMGZC',
   },
   {
     title: 'Suspiria',
@@ -310,7 +310,7 @@ const movies = [
     platforms: [
       { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=BY6QKRl56Ok',
+    trailer: 'https://www.youtube.com/watch?v=5Y0EEqtWrJI',
   },
   {
     title: 'IT - A Coisa',
@@ -363,7 +363,7 @@ const movies = [
       { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'},
       { name: 'HBO MAX', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg'}
     ],
-    trailer: 'https://www.youtube.com/watch?v=e4TnjpMwMR8',
+    trailer: 'https://www.youtube.com/watch?v=9eZgEKjYJqA',
   },
   {
     title: 'Longlegs',
@@ -380,9 +380,9 @@ const movies = [
   },
   {
     title: 'Carrie, a Estranha',
-    year: '1976',
+    year: '2013',
     genre: 'Sobrenatural',
-    description: 'Carrie é uma jovem excluída e atormentada na escola e em casa. Ao descobrir seus poderes telecinéticos, ela tenta controlar sua raiva — até que uma brincadeira cruel no baile desencadeia uma vingança sobrenatural. ',
+    description: 'Carrie White (interpretada por Chloë Grace Moretz) é uma adolescente tímida e excluída, constantemente humilhada pelos colegas de escola e oprimida por sua mãe, Margaret (Julianne Moore), uma fanática religiosa. Vivendo em isolamento e sofrimento, Carrie descobre que possui poderes telecinéticos — a capacidade de mover objetos com a mente. Quando uma brincadeira cruel durante o baile de formatura ultrapassa todos os limites, Carrie libera sua fúria e seus poderes de forma devastadora.',
     rating: '7,4',
     poster: 'https://i.pinimg.com/1200x/02/b3/fe/02b3fed5fa3fe2f1c8d64ca23cfe041a.jpg',
     platforms: [
@@ -583,7 +583,7 @@ const movies = [
     platforms: [
       { name: 'Netflix' , logo: 'https://i.pinimg.com/1200x/b6/3c/86/b63c861466a49f4a296806069be7f097.jpg'},
     ],
-    trailer: 'https://youtu.be/LhgfYpj_4_Q',
+    trailer: 'https://www.youtube.com/watch?v=MDs572zB9v8',
   },
   {
     title: 'Eu Sei o Que Vocês Fizeram no Verão Passado',
@@ -1116,11 +1116,3 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
-
-
-
-
-
-
-
-
