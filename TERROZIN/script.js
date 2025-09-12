@@ -588,7 +588,7 @@ const movies = [
   {
     title: 'Eu Sei o Que Vocês Fizeram no Verão Passado',
     year: '2025',
-    genre: ' Terror, Suspense',
+    genre: 'Suspense',
     description: 'Cinco amigos causam um acidente de carro fatal e encobrem seu envolvimento mantendo segredo em vez de enfrentar as consequências. Um ano depois, eles se veem perseguidos por um assassino misterioso que sabe o que eles fizeram no verão passado.',
     rating: null,
     poster: 'https://api.claquete.com.br/uploads/poster/16065_medio.jpg',
@@ -1116,3 +1116,4 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
