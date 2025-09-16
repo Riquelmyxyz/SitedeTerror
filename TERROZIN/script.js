@@ -283,7 +283,7 @@ const movies = [
     platforms: [
       { name: 'Disney', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=wJgoed2eo5U',
+    trailer: 'https://www.youtube.com/watch?v=nvGCVfw8QlY',
   },
   {
     title: 'A Hora do Pesadelo',
@@ -1116,6 +1116,7 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
 
 
