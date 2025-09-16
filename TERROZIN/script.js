@@ -177,7 +177,7 @@ const movies = [
     platforms: [
       { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=V5YL6ZwN0HE'
+    trailer: 'https://www.youtube.com/watch?v=pgAKlPrt2rA'
   },
   {
     title: '28 Dias Depois',
@@ -1116,5 +1116,6 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
 
