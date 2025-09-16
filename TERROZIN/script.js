@@ -560,25 +560,25 @@ const movies = [
     ],
     trailer: 'https://www.youtube.com/watch?v=TTwbsctteuw',
   },
-  {
+ {
     title: 'Extermínio: A Evolução',
     year: '2025',
     genre: 'Terror, Suspense',
     description: '28 Years Later se passa três décadas após o surto do vírus da raiva que transformou grande parte da humanidade em criaturas violentas. A trama acompanha um grupo de sobreviventes que vive isolado em uma ilha protegida por um istmo fortemente vigiado. Quando um deles parte em missão ao continente, descobre mutações assustadoras — não só nos infectados, mas também nos humanos que sobreviveram.',
-    rating: null,
+    rating: '6,7',
     poster: 'https://tse1.mm.bing.net/th/id/OIP.BG510tAxW2Inbtw4X4MEkwHaK-?cb=thfvnextucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
     platforms: [
       { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
       { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
     ],
-    trailer: 'https://youtu.be/mcvLKldPM08',
+    trailer: 'https://www.youtube.com/watch?v=34_nWf_FC0g',
   },
   {
     title: 'A Babá',
     year: '2017',
     genre: 'Culto',
     description: 'Cole, um garoto tímido de 12 anos, é apaixonado por sua babá Bee — linda, divertida e aparentemente perfeita. Mas tudo muda quando ele decide espioná-la após ir para a cama e descobre que ela lidera um culto satânico com seus amigos adolescentes. A partir daí, Cole precisa lutar pela própria vida enquanto tenta escapar dos assassinos, usando criatividade, coragem e muita sorte.',
-    rating: null,
+    rating: '6,4',
     poster: 'https://i.ytimg.com/vi/XRujdNZVWUU/maxresdefault.jpg',
     platforms: [
       { name: 'Netflix' , logo: 'https://i.pinimg.com/1200x/b6/3c/86/b63c861466a49f4a296806069be7f097.jpg'},
@@ -590,51 +590,50 @@ const movies = [
     year: '2025',
     genre: 'Suspense',
     description: 'Cinco amigos causam um acidente de carro fatal e encobrem seu envolvimento mantendo segredo em vez de enfrentar as consequências. Um ano depois, eles se veem perseguidos por um assassino misterioso que sabe o que eles fizeram no verão passado.',
-    rating: null,
+    rating: '5,2',
     poster: 'https://api.claquete.com.br/uploads/poster/16065_medio.jpg',
     platforms: [
       { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
     ],
-    trailer: 'https://youtu.be/RTIhJksrx34',
+    trailer: 'https://www.youtube.com/watch?v=qi_zUdA8-cY',
   },
   {
     title: 'O Ritual',
     year: '2025',
     genre: 'Culto',
     description: 'Dois padres, um questionando sua fé e outro lidando com um passado problemático, devem deixar suas diferenças de lado para realizar um exorcismo difícil e perigoso em uma mulher possuída.',
-    rating: null,
+    rating: '4,5',
     poster: 'https://horrorfuel.com/wp-content/uploads/2025/03/the-ritual-2025.jpg',
     platforms: [
       { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
     ],
-    trailer: 'https://youtu.be/Y8zUTpO3JAo',
+    trailer: 'https://www.youtube.com/watch?v=SV_K7qqsL_A',
   },
   {
     title: 'A Hora do Mal',
     year: '2025',
     genre: 'Sobrenatural',
     description: 'Todas as crianças da mesma sala de aula, exceto uma, desaparecem misteriosamente na mesma noite e exatamente no mesmo horário. A comunidade fica se perguntando quem ou o que está por trás do desaparecimento.',
-    rating: null,
+    rating: '7,6',
     poster: 'https://live.staticflickr.com/65535/54485707676_9495b1c07e_o.jpg',
     platforms: [
       { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
       { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
     ],
-    trailer: 'https://youtu.be/Sx_iYTfehN0',
+    trailer: 'https://www.youtube.com/watch?v=_tchsUm0w_M',
 
   },
   {
     title: 'Os Enforcados',
-    year: '202f',
-    genre: 'Slasher',
-    description: 'Um grupo de amigos é aterrorizado por um assassino que usa métodos cruéis e ligados a um antigo conto folclórico.',
-    rating: null,
+    year: '2024',
+    genre: 'Suspense, Drama, Crime',
+    description: 'Um casal feliz procura por uma saída do negócio criminoso da família. No entanto, os seus esforços os empurram cada vez mais para o buraco do qual esperavam escapar.',
+    rating: '7,2',
     poster: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/6x3670ZuV4v7YUome28WSGlSblv.jpg',
     platforms: [
-      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
-      { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
+      { name: 'Netflix', logo: 'https://i.pinimg.com/1200x/b6/3c/86/b63c861466a49f4a296806069be7f097.jpg' },
     ],
-    trailer: '',
+    trailer: 'https://www.youtube.com/watch?v=doi7yU5YKew',
   },
   {
     title: 'Juntos',
@@ -1116,6 +1115,7 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
 
 
