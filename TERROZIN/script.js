@@ -626,7 +626,7 @@ const movies = [
   {
     title: 'Os Enforcados',
     year: '2024',
-    genre: 'Suspense, Drama, Crime',
+    genre: 'Suspense',
     description: 'Um casal feliz procura por uma saída do negócio criminoso da família. No entanto, os seus esforços os empurram cada vez mais para o buraco do qual esperavam escapar.',
     rating: '7,2',
     poster: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/6x3670ZuV4v7YUome28WSGlSblv.jpg',
@@ -1115,6 +1115,7 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
 
 
