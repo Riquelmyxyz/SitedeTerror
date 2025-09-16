@@ -139,7 +139,7 @@ const movies = [
     platforms: [
       { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' }
     ],
-    trailer: 'https://www.youtube.com/watch?v=Kp_-KZH_vlQ'
+    trailer: 'https://www.youtube.com/watch?v=IcyoEBGFwWU'
   },
   {
     title: 'Annabelle',
@@ -1116,4 +1116,5 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
