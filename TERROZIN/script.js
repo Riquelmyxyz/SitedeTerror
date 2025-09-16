@@ -635,46 +635,57 @@ const movies = [
     ],
     trailer: 'https://www.youtube.com/watch?v=doi7yU5YKew',
   },
-  {
+ {
     title: 'Juntos',
     year: '2025',
     genre: 'Psicológico',
-    description: 'O isolamento e a paranoia levam um grupo de pessoas a confrontar seus medos mais profundos.',
-    rating: null,
+    description: '"Juntos" acompanha Tim e Millie, um casal disfuncional e codependente que decide se mudar para uma cidade isolada no interior dos EUA em busca de recomeço. Mas o que parecia uma chance de reconstruir a relação se transforma em um pesadelo quando uma força sobrenatural começa a corromper seus corpos, mentes e sentimentos. A floresta ao redor esconde segredos sombrios, e o casal precisa enfrentar horrores que vão muito além de uma simples separação',
+    rating: '6,8',
     poster: 'https://m.media-amazon.com/images/M/MV5BNzA4YjY5ZjEtMWU5NC00MWFmLWFkOGItZDBhMzBjNWMyNzE1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     platforms: [
       { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
       { name: 'Apple Tv', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg'}
     ],
-    trailer: '',
+    trailer: 'https://www.youtube.com/watch?v=9DlM58879hs',
   },
   {
     title: 'Faça Ela Voltar',
     year: '2025',
     genre: 'Sobrenatural',
-    description: 'Uma tentativa desesperada de trazer alguém de volta do além desencadeia consequências aterrorizantes.',
-    rating: null,
+    description: 'Após a morte repentina do pai, os meio-irmãos Andy e Piper são enviados para viver com uma nova mãe adotiva, Laura, em uma casa isolada. O que começa como uma tentativa de reconstrução familiar logo se transforma em um pesadelo: a casa esconde rituais ocultos, segredos perturbadores e uma força maligna que ameaça destruir os laços entre os irmãos — e a própria sanidade deles',
+    rating: '7,2',
     poster: 'https://tse1.mm.bing.net/th/id/OIF.PGSgn8yyy91jvrrFkNQmZg?cb=thfvnextucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
-    trailer: '',
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+    ],
+    trailer: 'https://www.youtube.com/watch?v=G_AiCUux8Xg',
   },
   {
     title: 'Invocação do Mal 2',
     year: '2016',
     genre: 'Possessão',
-    description: 'Ed e Lorraine Warren retornam para enfrentar sua mais desafiadora e talvez última investigação paranormal.',
-    rating: null,
+    description: 'Neste segundo capítulo da saga, os investigadores paranormais Ed e Lorraine Warren viajam até Enfield, Inglaterra, para ajudar uma mãe solteira e seus quatro filhos, que estão sendo atormentados por uma entidade maligna em sua casa. Baseado em um dos casos mais famosos da vida real dos Warrens, o filme mergulha em fenômenos poltergeist, possessões e aparições assustadoras — tudo com a tensão crescente que virou marca registrada da franquia.',
+    rating: '7,3',
     poster: 'https://www.ucicinemas.com.br/Content/Upload/Filmes/Posters/5985/filme_5985.jpg',
-    trailer: '',
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'HBO MAX', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=l3LQgORbhu4',
   },
 
   {
     title: 'Annabelle 2 - A Criação do Mal',
     year: '2017',
     genre: 'Possessão',
-    description: null,
-    rating: null,
+    description: 'Anos após a trágica morte de sua filha, um artesão de bonecas e sua esposa acolhem em sua casa uma freira e meninas de um orfanato. Mas o que parecia um gesto de caridade se transforma em um pesadelo quando a boneca Annabelle, uma criação do próprio artesão, revela-se possuída por uma entidade maligna. O filme mostra a origem da boneca amaldiçoada e os eventos que desencadeiam o terror que se espalha pelo universo Invocação do Mal',
+    rating: '6,5',
     poster: 'https://tse1.mm.bing.net/th/id/OIP.vwqPWnEeHIGdu1C57EBh7AHaK_?cb=thfvnextucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
-    trailer: '',
+    platforms: [
+      { name: 'Amazon Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' },
+      { name: 'HBO MAX', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg'}
+    ],
+    trailer: 'https://www.youtube.com/watch?v=TXT0_1ctBOo',
   },
   
   {
@@ -734,66 +745,69 @@ const movies = [
     title: 'REC',
     year: '2007',
     genre: 'Zumbi',
-    description: null,
-    rating: null,
+    description: 'Durante uma reportagem noturna sobre o cotidiano de bombeiros em Barcelona, a jornalista Ángela Vidal e seu cinegrafista acompanham uma equipe em um chamado de emergência em um prédio residencial. O que parecia uma ocorrência comum se transforma em um pesadelo claustrofóbico quando os moradores começam a apresentar comportamentos violentos e inexplicáveis. Presos dentro do edifício, os personagens enfrentam uma infecção misteriosa e forças sobrenaturais — tudo registrado pela câmera em tempo real.',
+    rating: '7,4',
     poster: 'https://www.kinonews.ru/insimgs/poster/poster47670_2.jpg',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' },
+      { name: 'Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=oPvHTzqY2fM'
   },
   {
     title: 'A Morte do Demônio',
     year: '2013',
     genre: 'Demônio',
-    description: null,
-    rating: null,
+    description: 'Cinco amigos se reúnem em uma cabana isolada na floresta para ajudar Mia, uma jovem em processo de desintoxicação. Ao explorar o porão, eles encontram o Livro dos Mortos, e ao recitarem seus textos, despertam uma entidade demoníaca que começa a possuí-los um a um. O que era para ser um retiro de cura se transforma em uma luta brutal pela sobrevivência, com cenas de mutilação, possessão e muito sangue.',
+    rating: '6,5',
     poster: 'https://images.justwatch.com/poster/174792418/s718/a-morte-do-demonio.jpg',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'HBO Max', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg' },
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' },
+      { name: 'Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=JBfub8SbtvU'
   },
   {
     title: 'Arraste-me para o Inferno',
     year: '2009',
     genre: 'Demônio',
-    description: null,
-    rating: null,
+    description: 'Christine Brown (Alison Lohman) é uma ambiciosa analista de crédito que, para impressionar seu chefe, nega a extensão do empréstimo de uma senhora idosa. Como vingança, a mulher lança uma maldição demoníaca sobre Christine, que passa a ser perseguida por uma entidade maligna chamada Lamia. Com apenas três dias antes de ser arrastada para o inferno, Christine precisa encontrar uma forma de quebrar a maldição — enfrentando horrores físicos, psicológicos e espirituais.',
+    rating: '6,6',
     poster: 'https://i.ytimg.com/vi/i6SJdrMRkxo/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGH8gOSghMA8=&rs=AOn4CLCCpiOlgS_qKzo1nckrM82Uk0FilQ',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Netflix', logo: 'https://i.pinimg.com/1200x/b6/3c/86/b63c861466a49f4a296806069be7f097.jpg' },
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' },
+      { name: 'Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=PPOaxHqoYxo'
   },
   {
     title: 'Drácula de Bram Stoker',
     year: '1992',
     genre: 'Vampiro',
-    description: null,
-    rating: null,
+    description: 'Inspirado diretamente no romance de Bram Stoker, o filme dirigido por Francis Ford Coppola apresenta Vlad Drácula, um guerreiro do século XV que, após perder sua amada Elisabeta, renega a fé e se transforma em um vampiro imortal. Séculos depois, ele encontra Mina, a noiva de um jovem advogado, que parece ser a reencarnação de sua amada. Em meio à Londres vitoriana, Drácula inicia uma jornada de sedução, terror e redenção — misturando paixão eterna com forças sombrias',
+    rating: '7,4',
     poster: 'https://br.web.img3.acsta.net/medias/nmedia/18/93/17/90/20240211.jpg',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'HBO Max', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg' },
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' },
+      { name: 'Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=cpAfqCUaVwg'
   },
   {
     title: 'Deixe Ela Entrar',
     year: '2008',
     genre: 'Vampiro',
-    description: null,
-    rating: null,
+    description: 'Em um subúrbio gelado de Estocolmo, o solitário e tímido Oskar, de 12 anos, sofre bullying na escola e vive isolado. Sua vida muda quando conhece Eli, uma misteriosa garota que se muda para o prédio ao lado. Aos poucos, nasce uma amizade profunda — mas Eli guarda um segredo sombrio: ela é uma vampira que vive há séculos. Enquanto assassinatos brutais começam a ocorrer na vizinhança, Oskar precisa decidir até onde vai sua lealdade e o que está disposto a aceitar por amor.',
+    rating: '7,8',
     poster: 'https://i.ytimg.com/vi/6Y2PhP29tyk/maxresdefault.jpg',
     platforms: [
-      { name: 'HBO Max', logo: '' },
-      { name: 'Apple TV', logo: '' }
+      { name: 'Apple TV', logo: 'https://i.pinimg.com/1200x/5e/0c/42/5e0c423458b017f4f2d3598ab9f8a33f.jpg' },
+      { name: 'Prime Video', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg' }
     ],
-    trailer: ''
+    trailer: 'https://www.youtube.com/watch?v=_35kD5UeDHo'
   },
   {
     title: 'Entrevista com o Vampiro',
@@ -1115,6 +1129,7 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
 
 
