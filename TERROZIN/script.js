@@ -585,11 +585,11 @@ const movies = [
     ],
     trailer: 'https://www.youtube.com/watch?v=MDs572zB9v8',
   },
-  {
+ {
     title: 'Eu Sei o Que Vocês Fizeram no Verão Passado',
     year: '2025',
     genre: 'Suspense',
-    description: 'Cinco amigos causam um acidente de carro fatal e encobrem seu envolvimento mantendo segredo em vez de enfrentar as consequências. Um ano depois, eles se veem perseguidos por um assassino misterioso que sabe o que eles fizeram no verão passado.',
+    description: 'A trama gira em torno de cinco jovens amigos que, após um acidente de carro fatal, decidem manter o ocorrido em segredo. No entanto, um ano depois, eles começam a ser perseguidos por um assassino que sabe o que aconteceu. O filme se passa em Southport, agora transformada em uma área de luxo, e explora temas como segredos, culpa e a dinâmica entre os jovens ricos e os moradores locais.',
     rating: '5,2',
     poster: 'https://api.claquete.com.br/uploads/poster/16065_medio.jpg',
     platforms: [
@@ -601,7 +601,7 @@ const movies = [
     title: 'O Ritual',
     year: '2025',
     genre: 'Culto',
-    description: 'Dois padres, um questionando sua fé e outro lidando com um passado problemático, devem deixar suas diferenças de lado para realizar um exorcismo difícil e perigoso em uma mulher possuída.',
+    description: ' A trama gira em torno de dois padres que enfrentam momentos difíceis em suas vidas. Um deles está em crise com sua fé, enquanto o outro lidou com um passado conturbado. Quando uma jovem é possuída por um demônio, eles precisam deixar suas diferenças de lado e se unirem em um exorcismo arriscado, enfrentando desafios e tentativas de expulsar o mal do lugar sagrado. O filme é uma sequência de exorcismo e explora a luta entre a fé e a força do mal.',
     rating: '4,5',
     poster: 'https://horrorfuel.com/wp-content/uploads/2025/03/the-ritual-2025.jpg',
     platforms: [
@@ -613,7 +613,7 @@ const movies = [
     title: 'A Hora do Mal',
     year: '2025',
     genre: 'Sobrenatural',
-    description: 'Todas as crianças da mesma sala de aula, exceto uma, desaparecem misteriosamente na mesma noite e exatamente no mesmo horário. A comunidade fica se perguntando quem ou o que está por trás do desaparecimento.',
+    description: 'O filme se passa em uma pequena cidade onde, em uma noite, todas as crianças de uma sala de aula, exceto uma, desaparecem misteriosamente às 2h17 da madrugada. A professora Gandy (interpretada por Julia Garner) se torna o alvo das suspeitas da comunidade, que busca entender o que pode ter causado esse evento inexplicável. O único aluno que não desapareceu, Alex Lilly, tenta desvendar o mistério, mas não tem ideia do que aconteceu com seus colegas.',
     rating: '7,6',
     poster: 'https://live.staticflickr.com/65535/54485707676_9495b1c07e_o.jpg',
     platforms: [
@@ -627,7 +627,7 @@ const movies = [
     title: 'Os Enforcados',
     year: '2024',
     genre: 'Suspense',
-    description: 'Um casal feliz procura por uma saída do negócio criminoso da família. No entanto, os seus esforços os empurram cada vez mais para o buraco do qual esperavam escapar.',
+    description: 'Os Enforcados é um suspense dramático inspirado em Macbeth, de Shakespeare. A história gira em torno de Regina e Valério, um casal da elite carioca que decide assassinar o tio mafioso para tomar o controle do império do jogo do bicho. Mas o plano sai do controle, e eles mergulham num mundo de paranoia, violência e corrupção, enfrentando as consequências de sua ambição.',
     rating: '7,2',
     poster: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/6x3670ZuV4v7YUome28WSGlSblv.jpg',
     platforms: [
@@ -1129,6 +1129,7 @@ genreDropdownItems.forEach(item => {
     genreDropdownBtn.classList.remove("active");
   });
 });
+
 
 
 
