@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIGHTMARE CINEMA - Portal do Terror</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Efeitos de fundo -->
+  <div class="background-effects">
+    <div class="floating-skull" style="top: 10%; left: 5%; animation-delay: 0s;">💀</div>
+    <div class="floating-skull" style="top: 20%; right: 10%; animation-delay: 2s;">👻</div>
+    <div class="floating-skull" style="top: 60%; left: 15%; animation-delay: 4s;">🦇</div>
+    <div class="floating-skull" style="bottom: 20%; right: 20%; animation-delay: 6s;">🕷️</div>
+
+    <div class="blood-trail" style="left: 15%; animation-delay: 0s;"></div>
+    <div class="blood-trail" style="left: 45%; animation-delay: 2s;"></div>
+    <div class="blood-trail" style="left: 75%; animation-delay: 4s;"></div>
+
+    <div class="particle" style="left: 20%; animation-delay: 1s;"></div>
+    <div class="particle" style="left: 60%; animation-delay: 3s;"></div>
+    <div class="particle" style="left: 80%; animation-delay: 5s;"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <h1 class="main-title">NIGHTMARE CINEMA</h1>
+    <p class="subtitle">🎬  Onde Os Pesadelos Ganham Vida  🎬</p>
+  </header>
+
+  <!-- Container principal -->
+  <div class="container">
+    <!-- Filtros por gênero -->
+    <section class="filters-section">
+      <h2 class="section-title">🎭 Escolha Seu Pesadelo 🎭</h2>
+      <div class="genre-dropdown">
+        <button class="dropdown-btn" id="genreDropdownBtn">
+          <span id="selectedGenre">🎬 Todos os Filmes</span>
+          <span class="dropdown-arrow">▼</span>
+        </button>
+        <div class="dropdown-menu" id="genreDropdownMenu">
+          <div class="dropdown-item active" data-genre="all">🎬 Todos os Filmes</div>
+          <div class="dropdown-item" data-genre="Sobrenatural">👻 Sobrenatural</div>
+          <div class="dropdown-item" data-genre="Slasher">🔪 Slasher</div>
+          <div class="dropdown-item" data-genre="Psicológico">🧠 Psicológico</div>
+          <div class="dropdown-item" data-genre="Thriller">⚡ Thriller</div>
+          <div class="dropdown-item" data-genre="Zumbi">🧟 Zumbi</div>
+          <div class="dropdown-item" data-genre="Demônio">😈 Demônio</div>
+          <div class="dropdown-item" data-genre="Vampiro">🧛 Vampiro</div>
+          <div class="dropdown-item" data-genre="Fantasma">👻 Fantasma</div>
+          <div class="dropdown-item" data-genre="Possessão">😱 Possessão</div>
+          <div class="dropdown-item" data-genre="Cult">🕯️ Culto</div>
+          <div class="dropdown-item" data-genre="Body Horror">🩸 Body Horror</div>
+          <div class="dropdown-item" data-genre="Apocalíptico">💀 Apocalíptico</div>
+          <div class="dropdown-item" data-genre="Alien">👽 Alien</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de filmes em destaque -->
+    <section class="featured-section">
+      <h2 class="section-title" id="currentGenreTitle">🔥 Todos os Clássicos Aterrorizantes 🔥</h2>
+      <div class="movies-grid" id="moviesGrid"></div>
+      
+
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
